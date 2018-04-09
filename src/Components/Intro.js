@@ -4,7 +4,7 @@ import './../App.css';
 class Intro extends Component {
     render() {
         return (
-            <div className="intro"></div>
+            <div className="intro z-depth-1"></div>
         );
     }
 }
