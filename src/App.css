@@ -23,6 +23,10 @@
   color: white;
 }
 
+.search-icon {
+  margin-right: 10px;
+}
+
 .App-title {
   font-size: 1.5em;
 }

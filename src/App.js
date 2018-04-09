@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import Nav from './Components/Nav'
 import './App.css'
 
-import Main from './Components/Main'
 import Intro from './Components/Intro'
 import Features from './Components/Features'
 import Examples from './Components/Examples'
@@ -20,7 +18,7 @@ class App extends Component {
         <Examples />
         <Gallery />
         <Footer />
-       </div> 
+       </div>
     )
   }
 }

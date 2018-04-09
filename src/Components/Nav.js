@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Container } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
 
-class Nav extends React.Component {
+
+class Nav extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,11 +28,11 @@ class Nav extends React.Component {
 
     render() {
         return (
-            
-                <Navbar color="indigo" dark className="navbar navbar-expand-lg" scrolling>
+
+                <Navbar color="indigo" dark className="navbar navbar-expand-lg fixed-top" scrolling>
                 <Container>
                     <NavbarBrand href="/">
-                        <strong>Navbar</strong>
+                        <strong>David Guben</strong>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
@@ -41,11 +41,8 @@ class Nav extends React.Component {
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
                           <NavItem>
-                              <NavLink to="/Features">Features</NavLink>
-                          </NavItem>
-                          <NavItem>
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Dropdown</DropdownToggle>
+                              <DropdownToggle nav caret>Contact</DropdownToggle>
                               <DropdownMenu>
                                   <DropdownItem href="#">Action</DropdownItem>
                                   <DropdownItem href="#">Another Action</DropdownItem>
@@ -57,16 +54,16 @@ class Nav extends React.Component {
                         </NavbarNav>
                         <NavbarNav right>
                           <NavItem>
-                            <form className="form-inline md-form mt-0">
-                              <input className="form-control mr-sm-2 mb-0 text-white" type="text" placeholder="Search" aria-label="Search"/>
+                            <form className="form-inline md-form mt-0 white-text">
+                              <i className="fa fa-search fa-2x search-icon cyan-text"></i><input className="form-control mr-sm-2 mb-0 white-text" type="text" placeholder="" aria-label="Search" />
                             </form>
                           </NavItem>
                         </NavbarNav>
                     </Collapse>
-                </Container> 
+                </Container>
                 </Navbar>
-               
-            
+
+
         );
     }
 }

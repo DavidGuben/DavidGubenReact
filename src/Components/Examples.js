@@ -5,9 +5,10 @@ class Examples extends Component {
     render() {
         return (
             <Container>
-
-            <div className="row">
-
+              <div className="col-md-12">
+                <h2 style={{ marginBottom: '50px' }}>Projects</h2>
+              </div>
+            <div className="row text-center">
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="view overlay z-depth-1-half">
                   <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" className="img-fluid" alt="" />

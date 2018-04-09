@@ -8,13 +8,13 @@ class Features extends Component {
 
             <div id="best-features" className="text-center">
 
-                <h2 style={{ marginTop: '20px' }}>Features</h2>
+                <h2 style={{ marginTop: '20px' }}>Services</h2>
 
                 <div className="row d-flex justify-content-center mb-4">
 
                 <div className="col-md-8">
 
-                    <p className="grey-text">Lorem ipsum description</p>
+                    <p className="grey-text">Website creation</p>
 
                 </div>
 
@@ -23,21 +23,21 @@ class Features extends Component {
             <div className="row">
 
             <div className="col-md-4 mb-5">
-                <i className="fa fa-camera-retro fa-4x orange-text"></i>
-                <h4 className="my-4 font-weight-bold">Experience</h4>
-                <p className="grey-text">Lorem ipsum description</p>
+                <i className="fa fa-pencil fa-4x lime-text"></i>
+                <h4 className="my-4 font-weight-bold">Design</h4>
+                <p className="grey-text">Imagine idea</p>
             </div>
 
             <div className="col-md-4 mb-1">
-                <i className="fa fa-heart fa-4x orange-text"></i>
-                <h4 className="my-4 font-weight-bold">Happiness</h4>
-                <p className="grey-text">Lorem ipsum description</p>
+                <i className="fa fa-code fa-4x lime-text"></i>
+                <h4 className="my-4 font-weight-bold">Develop</h4>
+                <p className="grey-text">Create idea</p>
             </div>
 
             <div className="col-md-4 mb-1">
-                <i className="fa fa-bicycle fa-4x orange-text"></i>
-                <h4 className="my-4 font-weight-bold">Adventure</h4>
-                <p className="grey-text">Lorem ipsum description</p>
+                <i className="fa fa-thumbs-up fa-4x lime-text"></i>
+                <h4 className="my-4 font-weight-bold">Publish</h4>
+                <p className="grey-text">Deploy idea</p>
             </div>
             </div>
             </div>
