@@ -32,7 +32,7 @@ class Nav extends Component {
                 <Navbar color="info-color-dark" dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
                     <NavbarBrand href="/">
-                        <strong>David Guben</strong>
+                        <strong>DG</strong>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
