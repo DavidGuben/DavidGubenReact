@@ -33,9 +33,7 @@ class Examples extends Component {
               <div className="col-lg-4 col-md-6 mb-4">
                 <div className="view overlay z-depth-1-half">
                   <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" className="img-fluid" alt="" />
-                  <a href="#!">
                     <div className="mask rgba-white-slight"></div>
-                  </a>
               </div>
 
               <h4 className="my-4 font-weight-bold">Heading</h4>

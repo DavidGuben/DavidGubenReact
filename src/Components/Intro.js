@@ -1,13 +1,20 @@
 import React, {Component} from 'react'
+import {View, Mask} from 'mdbreact'
 import './../App.css';
 
 class Intro extends Component {
     render() {
         return (
-            <div>
-                <img className="intro" src={require('./../Images/solar-landscape-v02_01.jpg')} alt="intro" />
-                <div className="intro z-depth-1"></div>
-            </div>
+            <View className="hm-blue-strong">
+                <div className="intro z-depth-1">
+                <Mask className="" />
+                <div className="row">
+                <div className="col-md-12" style={{marginTop: '350px'}}>
+                    
+                </div>
+                </div>    
+                </div>
+            </View>
         );
     }
 }
