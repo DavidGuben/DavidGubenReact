@@ -56,7 +56,7 @@ class Gallery extends Component {
                     <CarouselItem itemId="1">
                       <div className="view hm-black-light">
                         <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide" />
-                        <div className="mask"></div>
+                        <div className="mask waves-effect waves-light rgba-white-slight"></div>
                       </div>
                       <CarouselCaption>
                         <h3 className="h3-responsive">Light mask</h3>

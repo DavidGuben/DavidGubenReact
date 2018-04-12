@@ -29,7 +29,7 @@ class Nav extends Component {
     render() {
         return (
 
-                <Navbar color="indigo" dark className="navbar navbar-expand-lg fixed-top" scrolling>
+                <Navbar color="info-color-dark" dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
                     <NavbarBrand href="/">
                         <strong>David Guben</strong>
@@ -50,13 +50,6 @@ class Nav extends Component {
                                   <DropdownItem href="#">Something else here</DropdownItem>
                               </DropdownMenu>
                               </Dropdown>
-                          </NavItem>
-                        </NavbarNav>
-                        <NavbarNav right>
-                          <NavItem>
-                            <form className="form-inline md-form mt-0 white-text">
-                              <i className="fa fa-search fa-2x search-icon cyan-text"></i><input className="form-control mr-sm-2 mb-0 white-text" type="text" placeholder="" aria-label="Search" />
-                            </form>
                           </NavItem>
                         </NavbarNav>
                     </Collapse>
