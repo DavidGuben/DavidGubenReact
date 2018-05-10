@@ -3,7 +3,7 @@ import Nav from './Components/Nav'
 import './App.css'
 
 import Intro from './Components/Intro'
-import Features from './Components/Features'
+import Services from './Components/Services'
 import Examples from './Components/Examples'
 import Gallery from './Components/Gallery'
 import Footer from './Components/Footer'
@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Intro />
-        <Features />
+        <Services />
         <Examples />
         <Gallery />
         <Footer />
