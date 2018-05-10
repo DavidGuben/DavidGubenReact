@@ -6,7 +6,7 @@ class Intro extends Component {
     render() {
         return (
             <View className="hm-blue-strong">
-                <div className="intro z-depth-1">
+                <div className="intro z-depth-1 animated fadeIn">
                 <Mask className="" />
                 <div className="row">
                 <div className="col-md-12" style={{marginTop: '350px'}}>

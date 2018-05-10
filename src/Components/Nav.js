@@ -1,8 +1,11 @@
-import React, {Component} from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Container } from 'mdbreact';
-
+import React, {Component} from 'react'
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Container } from 'mdbreact'
 
 class Nav extends Component {
+    state = {
+        colors: ['#272932', '#4d7ea8', '#828489', '#9e90a2', '#b6c2d9']
+    }
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -28,11 +31,10 @@ class Nav extends Component {
 
     render() {
         return (
-
-                <Navbar color="info-color-dark" dark className="navbar navbar-expand-lg" scrolling>
-                <Container>
+                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg" scrolling>
+                <Container className="animated fadeInDown">
                     <NavbarBrand href="/">
-                        <strong>DG</strong>
+                        <strong>DG</strong> | Web Development
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
@@ -41,8 +43,20 @@ class Nav extends Component {
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
                           <NavItem>
+                              <NavLink to="/">About</NavLink>
+                          </NavItem>
+                          <NavItem>
+                              <NavLink to="/">Portfolio</NavLink>
+                          </NavItem>
+                          <NavItem>
+                              <NavLink to="/">Contact</NavLink>
+                          </NavItem>
+                          <NavItem>
+                              <NavLink to="/">Social Media</NavLink>
+                          </NavItem>
+                          <NavItem>
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Contact</DropdownToggle>
+                              <DropdownToggle nav caret>Dropdown</DropdownToggle>
                               <DropdownMenu>
                                   <DropdownItem href="#">Action</DropdownItem>
                                   <DropdownItem href="#">Another Action</DropdownItem>
@@ -61,4 +75,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav;
+export default Nav

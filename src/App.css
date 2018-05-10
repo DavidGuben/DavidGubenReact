@@ -3,12 +3,12 @@
 }
 
 .intro {
-  background: url('./Images/solar-landscape-v02_01.jpg')no-repeat center center;
+  background: url('./Images/art-computer-dark-193350.jpg')no-repeat center center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size:cover;
+  background-color: #000000;
   height: 660px;
-
 }
 
 .App-logo {

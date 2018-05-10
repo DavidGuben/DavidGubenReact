@@ -6,11 +6,11 @@ class Examples extends Component {
         return (
             <Container>
                 <h2 style={{ marginBottom: '50px' }}>Projects</h2>
-            <div className="row text-center">
-              <div className="col-lg-4 col-md-12 mb-4">
+                <div className="row text-center">
+                <div className="col-lg-4 col-md-12 mb-4">
                 <div className="view overlay z-depth-1-half">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" className="img-fluid" alt="" />
-                    <div className="mask rgba-white-slight"></div>
+                  <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" className="img-fluid" alt="Example Image" />
+                <div className="mask rgba-white-slight"></div>
                 </div>
 
               <h4 className="my-4 font-weight-bold">Heading</h4>
