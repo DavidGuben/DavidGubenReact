@@ -12,9 +12,11 @@ class Portfolio extends Component {
                 <div className="row text-center">
                 
                   <ProjectCard
-                  image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
-                  heading="Heading"
-                  description="Test Description." />
+                    image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
+                    heading="Heading"
+                    description="Test Description.">
+                    
+                  </ProjectCard>
 
                   <ProjectCard
                   image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
@@ -55,7 +57,7 @@ class Portfolio extends Component {
                   image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
                   heading="Heading"
                   description="Test Description." />
-                  
+
                 </div>
 
           </Container>
