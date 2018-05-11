@@ -4,7 +4,7 @@ import './App.css'
 
 import Intro from './Components/Intro'
 import Services from './Components/Services'
-import Examples from './Components/Examples'
+import Portfolio from './Components/Portfolio'
 import Gallery from './Components/Gallery'
 import Footer from './Components/Footer'
 
@@ -15,7 +15,7 @@ class App extends Component {
         <Nav />
         <Intro />
         <Services />
-        <Examples />
+        <Portfolio />
         <Gallery />
         <Footer />
        </div>

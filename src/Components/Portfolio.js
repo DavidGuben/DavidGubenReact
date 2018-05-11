@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Container} from 'mdbreact'
 
-class Examples extends Component {
+class Portfolio extends Component {
     render() {
         return (
             <Container>
@@ -83,4 +83,4 @@ class Examples extends Component {
     }
 }
 
-export default Examples
+export default Portfolio
