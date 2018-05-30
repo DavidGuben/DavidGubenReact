@@ -6,7 +6,7 @@ class ProjectCard extends Component {
         return (
             <div className="col-lg-4 col-md-12 mb-4">
             <div className="view overlay z-depth-1-half">
-                <img src={this.props.image} className="img-fluid" alt="Example Image" />
+                <img src={this.props.image} className="img-fluid" alt="Example" />
                 <div className="mask rgba-white-slight"></div>
             </div>
             <div className="project-category">{this.props.children}</div>
