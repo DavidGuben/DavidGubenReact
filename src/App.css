@@ -3,7 +3,7 @@
 }
 
 .intro {
-  background: url('./Images/art-computer-dark-193350.jpg')no-repeat center center;
+  background: url('./Images/apple-apple-devices-clean-205316.jpg')no-repeat center center;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size:cover;
@@ -14,6 +14,9 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  margin: 0 auto;
+  top: 200px;
+  right: 18px;
 }
 
 .App-header {
