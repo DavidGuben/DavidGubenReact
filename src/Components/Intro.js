@@ -11,11 +11,6 @@ class Intro extends Component {
                 <div className="intro z-depth-1 animated fadeIn">
                 <img src={Logo} alt="logo" width="100" height="100" className="App-logo" />
                 <Mask />
-                <div className="row">
-                <div className="col-md-12" style={{marginTop: '350px'}}>
-                    
-                </div>
-                </div>    
                 </div>
             </View>
         );
