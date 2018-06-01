@@ -9,8 +9,8 @@ class Intro extends Component {
         return (
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1 animated fadeIn">
-                <img src={Logo} alt="logo" width="100" height="100" className="App-logo" />
-                <Mask />
+                    <img src={Logo} alt="logo" width="150" height="150" className="App-logo" />
+                    <Mask />
                 </div>
             </View>
         );
