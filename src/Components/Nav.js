@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Container } from 'mdbreact'
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
+        Collapse, NavItem, NavLink, Dropdown, DropdownToggle,
+        DropdownMenu, DropdownItem, Container } from 'mdbreact'
 
 class Nav extends Component {
     state = {
@@ -7,14 +9,14 @@ class Nav extends Component {
     }
     
     constructor(props) {
-        super(props);
+        super(props)
         this.state = {
             collapse: false,
             isWideEnough: false,
             dropdownOpen: false
         };
-    this.onClick = this.onClick.bind(this);
-    this.toggle = this.toggle.bind(this);
+    this.onClick = this.onClick.bind(this)
+    this.toggle = this.toggle.bind(this)
     }
 
     onClick(){
@@ -54,7 +56,7 @@ class Nav extends Component {
                           <NavItem>
                               <NavLink to="/">Social Media</NavLink>
                           </NavItem>
-                          <NavItem>
+                          <NavItem className="drop-down-menu">
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                               <DropdownToggle nav caret>Dropdown</DropdownToggle>
                               <DropdownMenu>
