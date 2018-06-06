@@ -11,7 +11,7 @@ class Features extends Component {
                 <h2 style={{ marginTop: '20px' }}>Services</h2>
                 <div className="row d-flex justify-content-center mb-4">
                 <div className="col-md-8">
-                    <p className="grey-text">Website creation</p>
+                    <p className="grey-text">Web development services</p>
                 </div>
                 </div>
 
