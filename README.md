@@ -1,7 +1,5 @@
 <h1>Setup</h1>
 
-1. yarn
+1. <code>yarn</code>
 
-2. yarn start
-
-pw test
+2. <code>yarn start</code>
