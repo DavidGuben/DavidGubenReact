@@ -11,14 +11,24 @@
   -webkit-background-size: cover;
   background-size:cover;
   background-color: #000000;
-  height: 660px;
+  height: 760px;
 }
 
-.App-logo {
+.logo-svg {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
   margin: 0 auto;
-  top: 200px;
+}
+
+.logo-tagline {
+  font-size: 24px;
+  color: #272932;
+}
+
+.logo-container {
+  position: relative;
+  margin: 0 auto;
+  top: 180px;
   right: 18px;
 }
 

@@ -33,8 +33,8 @@ class Nav extends Component {
 
     render() {
         return (
-                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg" scrolling>
-                <Container className="animated fadeInDown">
+                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg animated fadeInDown" scrolling>
+               
                     <NavbarBrand href="/">
                         <strong>DG</strong> | Web Development
                     </NavbarBrand>
@@ -53,23 +53,9 @@ class Nav extends Component {
                           <NavItem>
                               <NavLink to="/Contact">Contact</NavLink>
                           </NavItem>
-                          <NavItem>
-                              <NavLink to="/SocialMedia">Social Media</NavLink>
-                          </NavItem>
-                          <NavItem className="drop-down-menu">
-                              <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Dropdown</DropdownToggle>
-                              <DropdownMenu>
-                                  <DropdownItem href="#">Action</DropdownItem>
-                                  <DropdownItem href="#">Another Action</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
-                              </DropdownMenu>
-                              </Dropdown>
-                          </NavItem>
                         </NavbarNav>
                     </Collapse>
-                </Container>
+                
                 </Navbar>
 
 
