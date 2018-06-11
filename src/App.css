@@ -1,6 +1,12 @@
+
 .App {
   text-align: center;
 }
+
+.navbar-opacity {
+  background: rgba(76, 175, 80, 0.0);
+}
+
 .drop-down-menu {
   position: relative;
   z-index: 10;
@@ -26,7 +32,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
 .project-category {

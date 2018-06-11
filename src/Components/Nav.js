@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
-        Collapse, NavItem, NavLink, Dropdown, DropdownToggle,
-        DropdownMenu, DropdownItem, Container } from 'mdbreact'
+        Collapse, NavItem, NavLink } from 'mdbreact'
 
 class Nav extends Component {
     state = {
@@ -33,14 +32,13 @@ class Nav extends Component {
 
     render() {
         return (
-                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg" scrolling>
-                <Container className="animated fadeInDown">
-                    <NavbarBrand href="/">
+                <Navbar color="white"  light className="navbar navbar-expand-lg navbar-opacity" scrolling>
+                    <NavbarBrand href="/" className="animated fadeInDown">
                         <strong>DG</strong> | Web Development
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
-                        <NavbarNav left>
+                        <NavbarNav left className="animated fadeInDown">
                           <NavItem active>
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
@@ -53,23 +51,9 @@ class Nav extends Component {
                           <NavItem>
                               <NavLink to="/Contact">Contact</NavLink>
                           </NavItem>
-                          <NavItem>
-                              <NavLink to="/SocialMedia">Social Media</NavLink>
-                          </NavItem>
-                          <NavItem className="drop-down-menu">
-                              <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Dropdown</DropdownToggle>
-                              <DropdownMenu>
-                                  <DropdownItem href="#">Action</DropdownItem>
-                                  <DropdownItem href="#">Another Action</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
-                              </DropdownMenu>
-                              </Dropdown>
-                          </NavItem>
                         </NavbarNav>
                     </Collapse>
-                </Container>
+                
                 </Navbar>
 
 

@@ -8,7 +8,7 @@ class Intro extends Component {
     render() {
         return (
             <View className="hm-blue-strong">
-                <div className="intro z-depth-1 animated fadeIn">
+                <div className="intro z-depth-1">
                     <img src={Logo} alt="logo" width="150" height="150" className="App-logo" />
                     <Mask />
                 </div>

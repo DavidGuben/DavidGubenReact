@@ -19,20 +19,20 @@ class Features extends Component {
                 <Service
                     heading="Design"
                     description="Design idea">
-                    <i className="fa fa-pencil fa-4x" style={{color: '#4d7ea8'}}></i>
+                    <i className="fa fa-pencil fa-4x" style={{color: '#272932'}}></i>
                 </Service>
 
                 <Service
                     heading="Develop"
                     description="Develop idea">
-                    <i className="fa fa-code fa-4x" style={{color: '#4d7ea8'}}></i>
+                    <i className="fa fa-code fa-4x" style={{color: '#272932'}}></i>
                 </Service>    
 
 
                 <Service
                     heading="Publish"
                     description="Publish idea">
-                    <i className="fa fa-thumbs-up fa-4x" style={{color: '#4d7ea8'}}></i>
+                    <i className="fa fa-thumbs-up fa-4x" style={{color: '#272932'}}></i>
                 </Service>
                 </div>
             </div>
