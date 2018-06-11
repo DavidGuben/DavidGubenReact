@@ -43,9 +43,9 @@ class Gallery extends Component {
         return(
             <Container>
 
-                <h2 className="mb-5 font-weight-bold text-center">Gallery Heading</h2>
+                <h2 className="mb-5 font-weight-bold text-center">Gallery</h2>
 
-                <div className="row">
+                <div className="row wow fadeIn">
 
                 <div className="col-md-7 mb-4">
                 <Carousel

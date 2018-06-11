@@ -9,7 +9,7 @@ class Portfolio extends Component {
             <Container>
                 <h2 style={{ marginBottom: '50px' }}>Portfolio</h2>
 
-                <div className="row text-center">
+                <div className="row text-center wow fadeInUp">
                 
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"

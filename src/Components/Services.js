@@ -11,11 +11,11 @@ class Features extends Component {
                 <h2 style={{ marginTop: '20px' }}>Services</h2>
                 <div className="row d-flex justify-content-center mb-4">
                 <div className="col-md-8">
-                    <p className="grey-text">Web development services</p>
+                    
                 </div>
                 </div>
 
-                <div className="row">
+                <div className="row wow fadeInUp">
                 <Service
                 heading="Website Design"
                 description="Your idea is converted into a responsive website design that looks great on all devices.">

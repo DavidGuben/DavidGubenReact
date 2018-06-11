@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Footer extends Component {
     render() {
         return (
-            <footer className="page-footer unique-color-dark pt-0"> 
+            <footer className="page-footer unique-color-dark pt-0 wow fadeIn"> 
             <div className="primary-color">
                 <div className="container">     
                     <div className="row py-4 d-flex align-items-center">

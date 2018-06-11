@@ -9,7 +9,7 @@ class Intro extends Component {
         return (
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1">
-                    <img src={Logo} alt="logo" width="150" height="150" className="App-logo" />
+                    <img src={Logo} alt="logo" width="150" height="150" className="App-logo animated rubberBand infinite" />
                     <Mask />
                 </div>
             </View>
