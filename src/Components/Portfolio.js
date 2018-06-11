@@ -47,31 +47,10 @@ class Portfolio extends Component {
                   </ProjectCard>
                   
                   <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/45.jpg"
-                    heading="Heading"
-                    description="Test Description.">
-                    Website
-                  </ProjectCard>
-                  
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/51.jpg"
-                    heading="Heading"
-                    description="Test Description.">
+                    image="https://mdbootstrap.com/img/Photos/Others/images/56.jpg"
+                    heading="Conjure"
+                    description="Wiccan calendar app.">
                     App
-                  </ProjectCard>
-                  
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
-                    heading="Heading"
-                    description="Test Description.">
-                    Website
-                  </ProjectCard>
-
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/53.jpg"
-                    heading="Heading"
-                    description="Test Description.">
-                    Website
                   </ProjectCard>
 
                 </div>
