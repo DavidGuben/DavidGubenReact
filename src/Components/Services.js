@@ -17,21 +17,21 @@ class Features extends Component {
 
                 <div className="row">
                 <Service
-                    heading="Design"
-                    description="Design idea">
+                heading="Website Design"
+                description="Your idea is converted into a responsive website design that looks great on all devices.">
                     <i className="fa fa-pencil fa-4x" style={{color: '#272932'}}></i>
                 </Service>
 
                 <Service
-                    heading="Develop"
-                    description="Develop idea">
+                heading="Website Development"
+                description="That idea is then developed into a functioning website.">
                     <i className="fa fa-code fa-4x" style={{color: '#272932'}}></i>
                 </Service>    
 
 
                 <Service
-                    heading="Publish"
-                    description="Publish idea">
+                heading="App Development"
+                description="Reach more users with iOS & Android applications.">
                     <i className="fa fa-thumbs-up fa-4x" style={{color: '#272932'}}></i>
                 </Service>
                 </div>
