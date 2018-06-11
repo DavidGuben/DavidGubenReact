@@ -8,7 +8,7 @@ class Footer extends Component {
                 <div className="container">     
                     <div className="row py-4 d-flex align-items-center">
                         <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                            <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
+                            <h6 className="mb-0 white-text">Connect with me on social media</h6>
                         </div>
                         <div className="col-md-6 col-lg-7 text-center text-md-right">
                             <a className="fb-ic ml-0">
@@ -35,47 +35,47 @@ class Footer extends Component {
 
                 <div className="col-md-3 col-lg-4 col-xl-3 mb-4">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Company Name</strong>
+                    <strong>David Guben</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
-                  <p>Footer content</p>
+                  <p>Home</p>
+                  <p>About</p>
+                  <p>Portfolio</p>
+                  <p>Contact</p>
                 </div>
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Products</strong>
+                    <strong>Projects</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Bootstrap</a>
+                    <a href="!#">MirrorlessShot.com</a>
                   </p>
                   <p>
-                    <a href="!#">Wordpress</a>
+                    <a href="!#">PawsNPoseCuttery.com</a>
                   </p>
                   <p>
-                    <a href="!#">David</a>
+                    <a href="!#">GeekyPupper.com</a>
                   </p>
                   <p>
-                    <a href="!#">Cool thing</a>
+                    <a href="!#">DavidGuben.tech</a>
                   </p>
                 </div>
         
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Useful links</strong>
+                    <strong>Portfolio Links</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Your account</a>
+                    <a href="!#">LinkedIn</a>
                   </p>
                   <p>
-                    <a href="!#">Become an affiliate</a>
+                    <a href="!#">Behance</a>
                   </p>
                   <p>
-                    <a href="!#">Shipping rates</a>
-                  </p>
-                  <p>
-                    <a href="!#">Help</a>
+                    <a href="!#">GitHub</a>
                   </p>
                 </div>
         
@@ -86,16 +86,10 @@ class Footer extends Component {
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <i className="fa fa-home mr-3"></i> New York, NY 10012 US
+                    <i className="fa fa-home mr-3"></i> New York, NY
                   </p>
                   <p>
-                    <i className="fa fa-envelope mr-3"></i> david@exaple.com
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 123 456 1231
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 1231 133 1454
+                    <i className="fa fa-envelope mr-3"></i> <a href="#!">davidjg6@gmail.com</a>
                   </p>
                 </div>
         
