@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
-        Collapse, NavItem, NavLink, Dropdown, DropdownToggle,
-        DropdownMenu, DropdownItem, Container } from 'mdbreact'
+        Collapse, NavItem, NavLink } from 'mdbreact'
 
 class Nav extends Component {
     state = {
