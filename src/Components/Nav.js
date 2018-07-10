@@ -12,15 +12,25 @@ class Nav extends Component {
         this.state = {
             collapse: false,
             isWideEnough: false,
-            dropdownOpen: false
+            dropdownOpen: false,
+            active: true
         };
+
     this.onClick = this.onClick.bind(this)
     this.toggle = this.toggle.bind(this)
+    this.activeToggle = this.activeToggle.bind(this)
+
     }
 
-    onClick(){
+    onClick() {
         this.setState({
             collapse: !this.state.collapse,
+        });
+    }
+
+    activeToggle() {
+        this.setState({
+            active: !this.state.active,
         });
     }
 
@@ -32,15 +42,17 @@ class Nav extends Component {
 
     render() {
         return (
-                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg animated fadeInDown" scrolling>
+                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg" scrolling>
                
                     <NavbarBrand href="/">
                         <strong>DG</strong> | Web Development
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
-                        <NavbarNav left>
-                          <NavItem active>
+                        <NavbarNav left className="">
+                          <NavItem 
+                            active={ this.state.active } 
+                            onClick={ this.activeToggle }>
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
                           <NavItem>

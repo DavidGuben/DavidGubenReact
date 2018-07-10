@@ -5,7 +5,7 @@ import './../App.css'
 import './../Loaders.scss'
 
 import Loader from 'react-loaders'
-let loader = <Loader type="ball-rotate" />
+let loader = <Loader type="ball-rotate" className="loader" />
 
 function renderLoader() {
     return loader;
@@ -16,9 +16,9 @@ class Intro extends Component {
         return (
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1 animated fadeIn">
-                    <div className="row logo-container">
-                    <div className="col-md-12">
-                        {renderLoader(loader)}
+                    <div className="row">
+                    <div className="col-md-12 logo-container">
+                        {renderLoader()}
                     </div>
                     </div>
                 </div>

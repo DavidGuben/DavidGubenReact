@@ -1,12 +1,14 @@
 .App {
   text-align: center;
 }
+
 .drop-down-menu {
   position: relative;
   z-index: 10;
 }
+
 .intro {
-  background: url('./Images/apple-apple-devices-clean-205316.jpg')no-repeat center center;
+/* background: url('./Images/apple-apple-devices-clean-205316.jpg')no-repeat center center; */
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size:cover;
@@ -25,11 +27,13 @@
   color: #272932;
 }
 
-.logo-container {
-  position: relative;
+.loader {
   margin: 0 auto;
-  top: 180px;
-  right: 18px;
+  width: 100px;
+}
+
+.logo-container {
+  top: 250px;
 }
 
 .App-header {
