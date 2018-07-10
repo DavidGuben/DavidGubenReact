@@ -2,7 +2,14 @@ import React, {Component} from 'react'
 import {View} from 'mdbreact'
 
 import './../App.css'
-import Logo from './../Images/logo.svg'
+import './../Loaders.scss'
+
+import Loader from 'react-loaders'
+let loader = <Loader type="ball-rotate" />
+
+function renderLoader() {
+    return loader;
+}
 
 class Intro extends Component {
     render() {
@@ -11,7 +18,7 @@ class Intro extends Component {
                 <div className="intro z-depth-1 animated fadeIn">
                     <div className="row logo-container">
                     <div className="col-md-12">
-                        <img src={Logo} alt="logo" width="150" height="150" className="logo-svg" />
+                        {renderLoader(loader)}
                     </div>
                     </div>
                 </div>

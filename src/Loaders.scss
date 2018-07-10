@@ -1,0 +1,10 @@
+$primary-color: $my-brand-color;
+@import 'loaders.css/src/animations/ball-rotate.scss';
+
+.loader-hidden {
+    display: none;
+}
+
+.loader-active {
+    display: block;
+}
