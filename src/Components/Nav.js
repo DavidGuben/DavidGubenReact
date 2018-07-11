@@ -47,7 +47,7 @@ class Nav extends Component {
                     <NavbarBrand href="/">
                         <strong>DG</strong> | Web Development
                     </NavbarBrand>
-                    { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
+                    { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav left className="">
                           <NavItem 
