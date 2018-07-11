@@ -13,7 +13,8 @@ class Nav extends Component {
             collapse: false,
             isWideEnough: false,
             dropdownOpen: false,
-            active: true
+            active: true,
+            activeClassName: "tab1"
         };
 
     this.onClick = this.onClick.bind(this)
@@ -30,7 +31,7 @@ class Nav extends Component {
 
     activeToggle() {
         this.setState({
-            active: !this.state.active,
+            active: !this.state.active
         });
     }
 
@@ -55,7 +56,8 @@ class Nav extends Component {
                             onClick={ this.activeToggle }>
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
-                          <NavItem>
+                          <NavItem
+                            onClick={ this.activeToggle }>
                               <NavLink to="/About">About</NavLink>
                           </NavItem>
                           <NavItem>

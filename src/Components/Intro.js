@@ -3,9 +3,9 @@ import {View} from 'mdbreact'
 
 import './../App.css'
 import './../Loaders.scss'
-
 import Loader from 'react-loaders'
-let loader = <Loader type="ball-rotate" className="loader" />
+
+let loader = <Loader type="line-scale" className="loader loader-active" />
 
 function renderLoader() {
     return loader;
