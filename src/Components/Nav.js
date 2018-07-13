@@ -69,27 +69,30 @@ class Nav extends Component {
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav left className="">
-                          <NavItem 
-                            active={this.state.activeMenuItemUid === this.state.menuItems.uid}> 
-                            
-                              <NavLink to="/">Home</NavLink>
-                          </NavItem>
-                          <NavItem
-                            active={ this.state.active }>
-                              <NavLink to="/About">About</NavLink>
+                          <NavItem>
+                            <NavLink 
+                                to="/About" 
+                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
+                                About
+                            </NavLink>
                           </NavItem>
                           <NavItem>
-                              <NavLink to="/Portfolio">Portfolio</NavLink>
+                            <NavLink 
+                                to="/Portfolio"
+                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
+                                Portfolio
+                            </NavLink>
                           </NavItem>
                           <NavItem>
-                              <NavLink to="/Contact">Contact</NavLink>
+                            <NavLink 
+                                to="/Contact"
+                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
+                                Contact
+                            </NavLink>
                           </NavItem>
                         </NavbarNav>
                     </Collapse>
-                
                 </Navbar>
-
-
         );
     }
 }
