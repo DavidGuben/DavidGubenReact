@@ -14,13 +14,31 @@ class Nav extends Component {
             isWideEnough: false,
             dropdownOpen: false,
             active: true,
-            activeClassName: "tab1"
+            menuItems: [
+                {uid: 'home'},
+                {uid: 'about'},
+                {uid: 'portfolio'},
+                {uid: 'contact'}
+            ],
         };
 
     this.onClick = this.onClick.bind(this)
     this.toggle = this.toggle.bind(this)
     this.activeToggle = this.activeToggle.bind(this)
+    this.activeMenuId = this.activeMenuId.bind(this)
 
+    }
+
+    activeMenuId() {
+        return {
+            activeMenuItemUid: 'home'
+        };
+    }
+
+    setActiveId(uid) {
+        this.setState({
+            activeMenuItemUid: uid
+        });
     }
 
     onClick() {
@@ -52,12 +70,12 @@ class Nav extends Component {
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav left className="">
                           <NavItem 
-                            active={ this.state.active } 
-                            onClick={ this.activeToggle }>
+                            active={this.state.activeMenuItemUid === this.state.menuItems.uid}> 
+                            
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
                           <NavItem
-                            onClick={ this.activeToggle }>
+                            active={ this.state.active }>
                               <NavLink to="/About">About</NavLink>
                           </NavItem>
                           <NavItem>
