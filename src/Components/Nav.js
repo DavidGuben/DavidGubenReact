@@ -1,11 +1,10 @@
-import React, {Component} from 'react'
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
-        Collapse, NavItem, NavLink } from 'mdbreact'
+import React, { Component } from 'react'
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
+    Collapse, Container, Button, Row, Col, Fa, Input,
+    Modal, ModalBody, ModalFooter
+     } from 'mdbreact'
 
 class Nav extends Component {
-    state = {
-        colors: ['#272932', '#4d7ea8', '#828489', '#9e90a2', '#b6c2d9']
-    }
     
     constructor(props) {
         super(props)
@@ -13,32 +12,20 @@ class Nav extends Component {
             collapse: false,
             isWideEnough: false,
             dropdownOpen: false,
-            active: true,
-            menuItems: [
-                {uid: 'home'},
-                {uid: 'about'},
-                {uid: 'portfolio'},
-                {uid: 'contact'}
-            ],
+            active: false,
+            modal: false
         };
 
     this.onClick = this.onClick.bind(this)
     this.toggle = this.toggle.bind(this)
-    this.activeToggle = this.activeToggle.bind(this)
-    this.activeMenuId = this.activeMenuId.bind(this)
+    this.toggleClass = this.toggleClass.bind(this)
 
     }
 
-    activeMenuId() {
-        return {
-            activeMenuItemUid: 'home'
-        };
-    }
-
-    setActiveId(uid) {
-        this.setState({
-            activeMenuItemUid: uid
-        });
+    toggleClass() {
+        this.setState({ 
+            active: !this.state.active 
+        })
     }
 
     onClick() {
@@ -55,44 +42,73 @@ class Nav extends Component {
 
     toggle() {
         this.setState({
-            dropdownOpen: !this.state.dropdownOpen
+            dropdownOpen: !this.state.dropdownOpen,
+            modal: !this.state.modal
         });
     }
 
     render() {
         return (
-                <Navbar style={{backgroundColor: '#272932'}} dark className="navbar navbar-expand-lg" scrolling>
-               
-                    <NavbarBrand href="/">
-                        <strong>DG</strong> | Web Development
-                    </NavbarBrand>
-                    { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
-                    <Collapse isOpen = { this.state.collapse } navbar>
-                        <NavbarNav left className="">
-                          <NavItem>
+            <div>
+            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg" scrolling>
+                <NavbarBrand href="/">
+                    <strong>DG</strong> | Web Development
+                </NavbarBrand>
+                { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
+                <Collapse isOpen = { this.state.collapse } navbar>
+                    <NavbarNav left>
+                        <NavItem>
                             <NavLink 
-                                to="/About" 
-                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
-                                About
+                            to="/About"
+                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}>
+                            About
                             </NavLink>
-                          </NavItem>
-                          <NavItem>
+                        </NavItem>
+                        <NavItem>
                             <NavLink 
-                                to="/Portfolio"
-                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
-                                Portfolio
+                            to="/Portfolio"
+                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}>
+                            Portfolio
                             </NavLink>
-                          </NavItem>
-                          <NavItem>
+                        </NavItem>
+                        <NavItem>
                             <NavLink 
-                                to="/Contact"
-                                activeStyle={{backgroundColor: 'rgb(211,211,211,0.1)'}}>
-                                Contact
+                            to="/Contact"
+                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}
+                            onClick={this.toggle}>
+                            Contact
                             </NavLink>
-                          </NavItem>
-                        </NavbarNav>
-                    </Collapse>
-                </Navbar>
+                        </NavItem>
+                    </NavbarNav>
+                </Collapse>
+            </Navbar>
+
+        <Container onClick={this.toggleClass} className={this.state.active ? 'animated fadeOut': null}>
+        <Row>
+          <Col md="6">
+            <Modal isOpen={this.state.modal} toggle={this.toggle} className="cascading-modal animated fadeInDown">
+              <div className="modal-header primary-color white-text">
+                <h4 className="title">
+                  <Fa className="fa fa-pencil" /> Contact form</h4>
+                <button type="button" className="close" onClick={this.toggle}>
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <ModalBody className="grey-text">
+                <Input size="sm" label="Your name" icon="user" group type="text" validate error="wrong" success="right"/>
+                <Input size="sm" label="Your email" icon="envelope" group type="email" validate error="wrong" success="right"/>
+                <Input size="sm" label="Subject" icon="tag" group type="text" validate error="wrong" success="right"/>
+                <Input size="sm" type="textarea" rows="2" label="Your message" icon="pencil"/>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="secondary" onClick={this.toggle}>Close</Button>{' '}
+                <Button color="primary">Send</Button>
+              </ModalFooter>
+            </Modal>
+          </Col>
+        </Row>
+      </Container>
+      </div>
         );
     }
 }

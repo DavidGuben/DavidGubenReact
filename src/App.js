@@ -8,12 +8,15 @@ import Portfolio from './Components/Portfolio'
 import Gallery from './Components/Gallery'
 import Footer from './Components/Footer'
 
+import Main from './Components/Main'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Nav />
         <Intro />
+        <Main />
         <Services />
         <Portfolio />
         <Gallery />

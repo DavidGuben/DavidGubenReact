@@ -5,11 +5,8 @@ import './../App.css'
 import './../Loaders.scss'
 import Loader from 'react-loaders'
 
-let loader = <Loader type="line-scale" className="loader loader-active" />
+let loader = <Loader type="line-scale" className="loader loader-active animated fadeIn" />
 
-function renderLoader() {
-    return loader;
-}
 
 class Intro extends Component {
     render() {
@@ -18,7 +15,7 @@ class Intro extends Component {
                 <div className="intro z-depth-1 animated fadeIn">
                     <div className="row">
                     <div className="col-md-12 logo-container">
-                        {renderLoader()}
+                        {loader}
                     </div>
                     </div>
                 </div>
