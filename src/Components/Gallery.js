@@ -43,7 +43,7 @@ class Gallery extends Component {
         return(
             <Container>
 
-                <h2 className="mb-5 font-weight-bold text-center">Gallery Heading</h2>
+                <h2 className="mb-5 font-weight-bold text-center">Projects</h2>
 
                 <div className="row">
 

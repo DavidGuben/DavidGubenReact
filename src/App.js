@@ -4,7 +4,6 @@ import './App.css'
 
 import Intro from './Components/Intro'
 import Services from './Components/Services'
-import Portfolio from './Components/Portfolio'
 import Gallery from './Components/Gallery'
 import Footer from './Components/Footer'
 
@@ -18,7 +17,6 @@ class App extends Component {
         <Intro />
         <Main />
         <Services />
-        <Portfolio />
         <Gallery />
         <Footer />
        </div>

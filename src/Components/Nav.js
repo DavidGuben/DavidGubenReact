@@ -34,12 +34,6 @@ class Nav extends Component {
         });
     }
 
-    activeToggle() {
-        this.setState({
-            active: !this.state.active
-        });
-    }
-
     toggle() {
         this.setState({
             dropdownOpen: !this.state.dropdownOpen,
@@ -50,7 +44,7 @@ class Nav extends Component {
     render() {
         return (
             <div>
-            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg" scrolling>
+            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg" fixed="top" scrolling>
                 <NavbarBrand href="/">
                     <strong>DG</strong> | Web Development
                 </NavbarBrand>
@@ -73,8 +67,8 @@ class Nav extends Component {
                         </NavItem>
                         <NavItem>
                             <NavLink 
-                            to="/Contact"
-                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}
+                            to=""
+                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.5)' }}
                             onClick={this.toggle}>
                             Contact
                             </NavLink>
