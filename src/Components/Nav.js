@@ -44,13 +44,13 @@ class Nav extends Component {
     render() {
         return (
             <div>
-            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg" fixed="top" scrolling>
-                <NavbarBrand href="/">
+            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" scrolling>
+                <NavbarBrand href="/" className="wow fadeIn" data-wow-delay="0.6s">
                     <strong>DG</strong> | Web Development
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
-                    <NavbarNav left>
+                    <NavbarNav left className="wow fadeIn" data-wow-delay="1.2s">
                         <NavItem>
                             <NavLink 
                             to="/About"

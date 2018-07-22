@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer className="page-footer unique-color-dark pt-0"> 
             <div className="primary-color">
                 <div className="container">     
-                    <div className="row py-4 d-flex align-items-center">
+                    <div className="row py-4 d-flex align-items-center wow fadeIn" data-wow-delay="0.6s">
                         <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                             <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
                         </div>
@@ -33,7 +33,7 @@ class Footer extends Component {
             <div className="container mt-5 mb-4 text-center text-md-left">
               <div className="row mt-3">
 
-                <div className="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <div className="col-md-3 col-lg-4 col-xl-3 mb-4 wow fadeIn" data-wow-delay="1.2s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Company Name</strong>
                   </h6>
@@ -41,7 +41,7 @@ class Footer extends Component {
                   <p>Footer content</p>
                 </div>
 
-                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.8s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Products</strong>
                   </h6>
@@ -60,7 +60,7 @@ class Footer extends Component {
                   </p>
                 </div>
         
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="2.4s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Useful links</strong>
                   </h6>
@@ -79,7 +79,7 @@ class Footer extends Component {
                   </p>
                 </div>
         
-                <div className="col-md-4 col-lg-3 col-xl-3">
+                <div className="col-md-4 col-lg-3 col-xl-3 wow fadeIn" data-wow-delay="3.0s">
         
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Contact</strong>
@@ -102,7 +102,7 @@ class Footer extends Component {
               </div>
             </div>
         
-            <div className="footer-copyright py-3 text-center">
+            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="3.6s">
               2018 Copyright: <a href="https://davidguben.com">David G.</a>
             </div>
         

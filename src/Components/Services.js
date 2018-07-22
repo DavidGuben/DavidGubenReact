@@ -6,8 +6,8 @@ import Service from './Service'
 class Features extends Component {
     render() {
         return (
-            <Container>
-            <div id="best-features" className="text-center">
+            <Container className="wow fadeIn" data-wow-delay="0.6s">
+            <div id="best-features" className="text-center wow pulse">
                 <h2 style={{ marginTop: '20px' }}>Services</h2>
                 <div className="row d-flex justify-content-center mb-4">
                 <div className="col-md-8">
@@ -15,8 +15,9 @@ class Features extends Component {
                 </div>
                 </div>
 
-                <div className="row">
+                <div className="row wow">
                 <Service
+                    className="wow pulse"
                     heading="Design"
                     description="Design idea">
                     <i className="fa fa-pencil fa-4x" style={{color: '#4d7ea8'}}></i>
