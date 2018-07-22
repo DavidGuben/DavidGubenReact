@@ -4,10 +4,9 @@ import './App.css'
 
 import Intro from './Components/Intro'
 import Services from './Components/Services'
-import Gallery from './Components/Gallery'
+import Portfolio from './Components/Portfolio'
 import Footer from './Components/Footer'
 
-import Main from './Components/Main'
 
 class App extends Component {
   render() {
@@ -15,9 +14,8 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Intro />
-        <Main />
         <Services />
-        <Gallery />
+        <Portfolio />
         <Footer />
        </div>
     )

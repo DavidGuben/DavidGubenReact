@@ -3,7 +3,7 @@ import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
     Collapse, Container, Button, Row, Col, Fa, Input,
     Modal, ModalBody, ModalFooter
      } from 'mdbreact'
-
+import './Nav.css'
 class Nav extends Component {
     
     constructor(props) {
@@ -68,7 +68,8 @@ class Nav extends Component {
                         <NavItem>
                             <NavLink 
                             to=""
-                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.5)' }}
+                            className="z-depth-2"
+                            activeClassName="contact-button"
                             onClick={this.toggle}>
                             Contact
                             </NavLink>

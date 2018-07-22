@@ -4,12 +4,13 @@ import {Container} from 'mdbreact'
 import ProjectCard from './ProjectCard'
 
 class Portfolio extends Component {
+  
     render() {
         return (
-<Container className=" animated fadeInUp">
+          <Container>
                 <h2 style={{ marginBottom: '50px' }}>Projects</h2>
 
-                <div className="row text-center">
+                <div className="row text-center wow fadeIn">
                 
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
