@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
-    Collapse, Container, Button, Row, Col, Fa, Input,
-    Modal, ModalBody, ModalFooter
-     } from 'mdbreact'
+         Collapse, Container, Button, Row, Col, Fa, Input,
+         Modal, ModalBody, ModalFooter } from 'mdbreact'
+
 import './Nav.css'
+
 class Nav extends Component {
-    
     constructor(props) {
         super(props)
         this.state = {
@@ -19,13 +19,6 @@ class Nav extends Component {
     this.onClick = this.onClick.bind(this)
     this.toggle = this.toggle.bind(this)
     this.toggleClass = this.toggleClass.bind(this)
-
-    }
-
-    toggleClass() {
-        this.setState({ 
-            active: !this.state.active 
-        })
     }
 
     onClick() {
@@ -39,6 +32,12 @@ class Nav extends Component {
             dropdownOpen: !this.state.dropdownOpen,
             modal: !this.state.modal
         });
+    }
+
+    toggleClass() {
+        this.setState({ 
+            active: !this.state.active 
+        })
     }
 
     render() {
@@ -82,7 +81,7 @@ class Nav extends Component {
         <Row>
           <Col md="6">
             <Modal isOpen={this.state.modal} toggle={this.toggle} className="cascading-modal animated fadeInDown">
-              <div className="modal-header primary-color white-text">
+              <div className="modal-header white-text">
                 <h4 className="title">
                   <Fa className="fa fa-pencil" /> Contact form</h4>
                 <button type="button" className="close" onClick={this.toggle}>
