@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import Nav from './Components/Nav'
+
 import './App.css'
 
-import Intro from './Components/Intro'
-import Services from './Components/Services'
-import Portfolio from './Components/Portfolio'
-import Footer from './Components/Footer'
+import Nav from './Components/Nav/Nav'
+import Intro from './Components/Intro/Intro'
+import Services from './Components/Services/Services'
+import Portfolio from './Components/Portfolio/Portfolio'
+import Footer from './Components/Footer/Footer'
 
 
 class App extends Component {

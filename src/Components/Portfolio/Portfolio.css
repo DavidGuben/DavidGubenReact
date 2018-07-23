@@ -1,0 +1,8 @@
+.project-category {
+    position: relative;
+    font-size: 15px;
+    background-color: #222;
+    color: white;
+    top: -20px;
+    z-index: 1;
+  }

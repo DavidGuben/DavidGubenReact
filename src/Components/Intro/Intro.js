@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View} from 'mdbreact'
 
-import './../App.css'
+import './Intro.css'
 
 class Intro extends Component {
     render() {
@@ -9,8 +9,8 @@ class Intro extends Component {
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1 animated fadeIn">
                     <div className="row">
-                    <div className="col-md-12 logo-container">
-                        
+                    <div className="col-md-12">
+                        <h1>Test</h1>   
                     </div>
                     </div>
                 </div>

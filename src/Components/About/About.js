@@ -1,4 +1,6 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+
+import 'About.css';
 
 class About extends Component {
     render() {
@@ -7,8 +9,8 @@ class About extends Component {
                 <p className="animated fadeInUp">About Component</p>
             </div>
             
-        )
+        );
     }
 }
 
-export default About
+export default About;

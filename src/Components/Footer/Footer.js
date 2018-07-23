@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import './Footer.css'
+
 class Footer extends Component {
     render() {
         return (
@@ -8,7 +10,7 @@ class Footer extends Component {
                 <div className="container">     
                     <div className="row py-4 d-flex align-items-center wow fadeIn" data-wow-delay="0.6s">
                         <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                            <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
+                            <h6 className="mb-0 white-text">Add me on social media</h6>
                         </div>
                         <div className="col-md-6 col-lg-7 text-center text-md-right">
                             <a className="fb-ic ml-0">
@@ -43,39 +45,39 @@ class Footer extends Component {
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.8s">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Products</strong>
+                    <strong>Sections</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Bootstrap</a>
+                    <a href="!#">My Portfolio</a>
                   </p>
                   <p>
-                    <a href="!#">Wordpress</a>
+                    <a href="!#">Contact Me</a>
                   </p>
                   <p>
-                    <a href="!#">David</a>
+                    <a href="!#">What I Do</a>
                   </p>
                   <p>
-                    <a href="!#">Cool thing</a>
+                    <a href="!#">About me</a>
                   </p>
                 </div>
         
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="2.4s">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Useful links</strong>
+                    <strong>Online Presence</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Your account</a>
+                    <a href="!#">Behance</a>
                   </p>
                   <p>
-                    <a href="!#">Become an affiliate</a>
+                    <a href="!#">LinkedIn</a>
                   </p>
                   <p>
-                    <a href="!#">Shipping rates</a>
+                    <a href="!#">Facebook</a>
                   </p>
                   <p>
-                    <a href="!#">Help</a>
+                    <a href="!#">Twitter</a>
                   </p>
                 </div>
         
@@ -86,23 +88,17 @@ class Footer extends Component {
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <i className="fa fa-home mr-3"></i> New York, NY 10012 US
+                    <i className="fa fa-home mr-3"></i> New York, NY 
                   </p>
                   <p>
-                    <i className="fa fa-envelope mr-3"></i> david@exaple.com
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 123 456 1231
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 1231 133 1454
+                    <i className="fa fa-envelope mr-3"></i> davidjg6@gmail.com
                   </p>
                 </div>
         
               </div>
             </div>
         
-            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="3.6s">
+            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="3.3s">
               2018 Copyright: <a href="https://davidguben.com">David G.</a>
             </div>
         

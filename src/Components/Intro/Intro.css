@@ -1,0 +1,8 @@
+.intro {
+    background: url('./../../Images/air-atmosphere-blue.jpg')no-repeat center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-color: #000000;
+    height: 760px;
+  }

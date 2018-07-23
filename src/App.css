@@ -4,15 +4,6 @@
   z-index: 10;
 }
 
-.intro {
-  background: url('./Images/air-atmosphere-blue.jpg')no-repeat center center;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size:cover;
-  background-color: #000000;
-  height: 760px;
-}
-
 .logo-svg {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -39,15 +30,6 @@
   height: 150px;
   padding: 20px;
   color: white;
-}
-
-.project-category {
-  position: relative;
-  font-size: 15px;
-  background-color: #222;
-  color: white;
-  top: -20px;
-  z-index: 1;
 }
 
 .search-icon {
