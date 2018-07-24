@@ -35,7 +35,7 @@ class Footer extends Component {
             <div className="container mt-5 mb-4 text-center text-md-left">
               <div className="row mt-3">
 
-                <div className="col-md-3 col-lg-4 col-xl-3 mb-4 wow fadeIn" data-wow-delay="1.2s">
+                <div className="col-md-3 col-lg-4 col-xl-3 mb-4 wow fadeIn" data-wow-delay="0.8s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Company Name</strong>
                   </h6>
@@ -43,7 +43,7 @@ class Footer extends Component {
                   <p>Footer content</p>
                 </div>
 
-                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.8s">
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.0s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Sections</strong>
                   </h6>
@@ -62,7 +62,7 @@ class Footer extends Component {
                   </p>
                 </div>
         
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="2.4s">
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.2s">
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Online Presence</strong>
                   </h6>
@@ -81,7 +81,7 @@ class Footer extends Component {
                   </p>
                 </div>
         
-                <div className="col-md-4 col-lg-3 col-xl-3 wow fadeIn" data-wow-delay="3.0s">
+                <div className="col-md-4 col-lg-3 col-xl-3 wow fadeIn" data-wow-delay="1.4s">
         
                   <h6 className="text-uppercase font-weight-bold">
                     <strong>Contact</strong>
@@ -98,7 +98,7 @@ class Footer extends Component {
               </div>
             </div>
         
-            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="3.3s">
+            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="1.6s">
               2018 Copyright: <a href="https://davidguben.com">David G.</a>
             </div>
         

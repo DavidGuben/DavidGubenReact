@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Intro />
+        <Intro header="David Guben" content="Web Developer" />
         <Services />
         <Portfolio />
         <Footer />
