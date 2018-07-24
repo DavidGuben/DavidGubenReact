@@ -9,8 +9,10 @@ class Intro extends Component {
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1 animated fadeIn">
                     <div className="row">
-                    <div className="col-md-12">
-                        <h1>Test</h1>   
+                    <div className="col-md-12 d-flex justify-content-center">
+                        <div className="intro-content">       
+                            <h1 className="text-center">Test</h1>
+                        </div>
                     </div>
                     </div>
                 </div>

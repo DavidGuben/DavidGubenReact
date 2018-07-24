@@ -77,7 +77,7 @@ class Nav extends Component {
                 </Collapse>
             </Navbar>
 
-        <Container onClick={this.toggleClass} className={this.state.active ? 'animated fadeOut': null}>
+        <Container>
         <Row>
           <Col md="6">
             <Modal isOpen={this.state.modal} toggle={this.toggle} className="cascading-modal animated fadeInDown">
