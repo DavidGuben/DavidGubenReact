@@ -1,5 +1,5 @@
 .intro {
-    background: url('./../../Images/air-atmosphere-blue.jpg')no-repeat center center;
+    background: url('./../../Images/computer-device-electronics.jpg')no-repeat center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size:cover;
@@ -8,6 +8,11 @@
   }
 
   .intro-content {
-    padding-top: 200px;
-    color: white;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgb(38, 38, 167) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   }

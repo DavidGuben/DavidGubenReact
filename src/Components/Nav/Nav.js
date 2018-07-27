@@ -9,9 +9,9 @@ class Nav extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            collapse: false,
             isWideEnough: false,
             dropdownOpen: false,
+            collapse: false,
             active: false,
             modal: false
         };
