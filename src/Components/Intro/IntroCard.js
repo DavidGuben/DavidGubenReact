@@ -15,7 +15,7 @@ class IntroCard extends Component {
             <div className="d-flex">
                 <div className="row">
                     <div className="col-md-12">
-                    <h1>David Guben</h1>
+                    <h1><b>David Guben</b></h1>
                     <p>React Web Developer</p>
                     </div>
                 </div>

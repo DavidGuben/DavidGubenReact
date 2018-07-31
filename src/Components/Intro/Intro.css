@@ -2,38 +2,50 @@
     background: url('./../../Images/computer-device-electronics.jpg')no-repeat center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size:cover;
+    background-size: cover;
     background-color: #000000;
     height: 760px;
   }
 
-  .intro-content {
-    margin-top: 200px;
+  .intro-header {
+    margin-top: 100px;
     padding: 30px;
     border-radius: 20px;
     color:white;
-    background: rgb(2,0,36);
-    background: linear-gradient(60deg, rgb(70, 70, 250) 35%, rgba(0,212,255,1) 100%);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    background: rgb(0,168,232);
+    background: linear-gradient(45deg, rgba(0,168,232,1) 0%, rgba(0,126,167,1) 100%);
+    box-shadow: 0px 0px 20px rgba(23, 23, 23, 0.6);
+    text-shadow: 1px 0px 0px rgba(43, 42, 42, 1);
     z-index: 2;
   }
 
-  .intro-description {
-    border-radius: 20px;
-    padding-top: 50px;
-    margin-top: -40px;
-    background-color: white;
+  .intro-content {
     z-index: 1;
-    box-shadow: 0px 0px 25px rgba(18, 18, 18, 0.2);
+    padding: 50px;
+    margin-top: -20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(23, 23, 23, 0.2);
   }
 
-  .intro-description div {
+  .intro-content div {
     margin: 40px;
     padding: 40px;
-    background-color: red;
+    color: white;
     border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(23, 23, 23, 0.7);
+    text-shadow: 1px 0px 0px rgba(43, 42, 42, 1);
+    background: rgb(0,168,232);
+    background: linear-gradient(45deg, rgba(0,168,232,1) 0%, rgba(0,126,167,1) 100%);
   }
-  .intro-description-content {
-    text-align: center;
+
+  .rotate {
+    width: 50%;
+    margin: 0 auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
   }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
