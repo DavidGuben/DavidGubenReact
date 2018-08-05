@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {View} from 'mdbreact'
 import './Portfolio.css'
 
 class ProjectCard extends Component {
@@ -6,6 +7,7 @@ class ProjectCard extends Component {
         return (
             
             <div className="col-lg-4 col-md-12 mb-4 wow fadeIn" data-wow-delay={this.props.delay}>
+            <View zoom>
             <div className="view overlay z-depth-1-half">
                 
                 <img src={this.props.image} className="img-fluid" alt="Example" />
@@ -16,6 +18,7 @@ class ProjectCard extends Component {
 
             <h4 className="my-4 font-weight-bold">{this.props.heading}</h4>
             <p className="grey-text">{this.props.description}</p>
+            </View>
             </div>
             
         )
