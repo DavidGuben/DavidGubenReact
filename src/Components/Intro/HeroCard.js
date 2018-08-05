@@ -35,7 +35,7 @@ class HeroCard extends Component {
                 <Service
                     className="wow pulse"
                     heading="Designer"
-                    description="Digital Assets, Graphic Design">
+                    description="Adobe Create Suite: Photoshop, Illustrator, InDesign, Premiere">
                     <i className="fa fa-pencil fa-4x" style={{color: '#4d7ea8'}}></i>
                 </Service>
 
