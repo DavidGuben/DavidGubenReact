@@ -39,8 +39,7 @@
 
   .service-content {
     z-index: 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 60px;
     width: 300px;
     font-size: 18px;
     margin-top: 10px;

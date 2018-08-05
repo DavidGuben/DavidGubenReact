@@ -6,6 +6,8 @@ class Service extends Component {
         <div className="col-md-6 mb-5">
             {this.props.children}
             <h4 className="my-4 font-weight-bold">{this.props.heading}</h4>
+            <hr/>
+            <p className="grey-text"><b>Tech used</b></p>
             <p className="grey-text">{this.props.description}</p>
         </div>
         )
