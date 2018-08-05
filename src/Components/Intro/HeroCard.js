@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import './Intro.css';
 import ReactLogo from './../../Images/code-icon-wht.svg';
+import Service from '../Services/Service';
 
 class HeroCard extends Component {
     render() {
@@ -19,8 +20,34 @@ class HeroCard extends Component {
 
                     <div className="col-md-12 intro-content animated bounceIn">
                     <h1><b>What I Do</b></h1>
-                        <p>I design & develop custom responsive websites or applications that look great on any device.</p>
+                        <p>Design & develop custom responsive websites or applications that look great on any device.</p>
                     </div>
+                    <div className="col-md-12 service-content animated bounceIn">
+                    <div id="best-features" className="text-center wow pulse">
+                
+                <div className="row d-flex justify-content-center mb-4">
+                <div className="col-md-8">
+                    <p className="grey-text"></p>
+                </div>
+                </div>
+
+                <div className="row wow">
+                <Service
+                    className="wow pulse"
+                    heading="Designer"
+                    description="Digital Assets, Graphic Design">
+                    <i className="fa fa-pencil fa-4x" style={{color: '#4d7ea8'}}></i>
+                </Service>
+
+                <Service
+                    heading="Developer"
+                    description="HTML5, CSS3, JavaScript ES6, Node, React, Git">
+                    <i className="fa fa-code fa-4x" style={{color: '#4d7ea8'}}></i>
+                </Service>
+                </div>
+            </div>
+                    </div>
+
                 </div>
             </div>
         );

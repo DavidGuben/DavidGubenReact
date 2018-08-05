@@ -9,7 +9,7 @@ class Portfolio extends Component {
     render() {
         return (
           <Container>
-                <h2 style={{ marginBottom: '25px' }} className="wow fadeIn">Projects</h2>
+                <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center' }} className="wow fadeIn"><b>Portfolio</b></h2>
 
                 <div className="row text-center">
                   

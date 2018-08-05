@@ -2,7 +2,6 @@ import React from 'react'
 
 import Nav from './../Nav/Nav'
 import Intro from './../Intro/Intro'
-import Services from './../Services/Services'
 import Portfolio from './../Portfolio/Portfolio'
 import Footer from './../Footer/Footer'
 
@@ -11,7 +10,6 @@ const Layout = () => {
         <div>
             <Nav/>
             <Intro/>
-            <Services/>
             <Portfolio/>
             <Footer/>
         </div>

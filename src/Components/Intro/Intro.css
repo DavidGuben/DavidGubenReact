@@ -4,7 +4,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-color: #000000;
-    height: 760px;
+    height: 920px;
   }
 
   .intro-header-container {
@@ -13,9 +13,10 @@
   }
 
   .intro-header {
-    margin-top: 100px;
+    margin-top: 30px;
     padding: 30px;
     border-radius: 20px;
+    width: 360px;
     color:white;
     background: rgb(0,53,71);
     background: linear-gradient(221deg, rgba(0,53,71,1) 0%, rgba(0,126,167,1) 100%);
@@ -28,8 +29,21 @@
     z-index: 1;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 300px;
     font-size: 18px;
     margin-top: -20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(23, 23, 23, 0.2);
+  }
+
+  .service-content {
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0px 0px 40px rgba(23, 23, 23, 0.2);
