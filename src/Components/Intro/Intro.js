@@ -11,11 +11,9 @@ class Intro extends Component {
             <View className="hm-blue-strong">
                 <div className="intro z-depth-1-half animated fadeIn">
                     <div className="row">
-
                         <div className="col-md-12 d-flex justify-content-center">
                             <HeroCard />
                         </div>
-
                     </div>
                 </div>
             </View>

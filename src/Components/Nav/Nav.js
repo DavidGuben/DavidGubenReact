@@ -82,14 +82,14 @@ class Nav extends Component {
                         <NavItem>
                             <NavLink 
                             to="/About"
-                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}>
+                            activeClassName="active">
                             About
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink 
                             to="/Portfolio"
-                            activeStyle={{ backgroundColor: 'rgb(211,211,211,0.1)' }}>
+                            activeClassName="active">
                             Portfolio
                             </NavLink>
                         </NavItem>
@@ -98,8 +98,9 @@ class Nav extends Component {
                             to=""
                             className="z-depth-2"
                             activeClassName="contact-button"
-                            onClick={this.toggle}>
-                            Contact
+                            onClick={this.toggle}
+                            style={{marginLeft: '10px'}}>
+                            Contact me
                             </NavLink>
                         </NavItem>
                     </NavbarNav>

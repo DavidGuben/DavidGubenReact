@@ -12,10 +12,10 @@ class Portfolio extends Component {
                 <h2 style={{ marginBottom: '25px' }} className="wow fadeIn">Projects</h2>
 
                 <div className="row text-center">
-                
+                  
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
-                    heading="Heading"
+                    heading="Paws N Pose Cuttery"
                     description="Test Description."
                     delay="0.6s">
                     App
@@ -23,7 +23,7 @@ class Portfolio extends Component {
 
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                    heading="Heading"
+                    heading="Ritu Chopra"
                     description="Test Description."
                     delay="1.2s">
                     Website
