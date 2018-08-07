@@ -73,7 +73,7 @@ class Nav extends Component {
             <div>
             {this.renderModal()}
             <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s"scrolling>
-                <NavbarBrand href="/" className="wow fadeIn" data-wow-delay="0.5s">
+                <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
                     <strong>DG</strong> | Web Development
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
@@ -98,8 +98,7 @@ class Nav extends Component {
                             to=""
                             className="z-depth-2"
                             activeClassName="contact-button"
-                            onClick={this.toggle}
-                            style={{marginLeft: '10px'}}>
+                            onClick={this.toggle}>
                             Contact me
                             </NavLink>
                         </NavItem>
