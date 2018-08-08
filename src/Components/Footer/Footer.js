@@ -37,10 +37,15 @@ class Footer extends Component {
 
                 <div className="col-md-3 col-lg-4 col-xl-3 mb-4 wow fadeIn" data-wow-delay="0.8s">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Company Name</strong>
+                    <strong>David Guben</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
-                  <p>Footer content</p>
+                  <p>
+                    <a href="!#">GitHub</a>
+                  </p>
+                  <p>
+                    <a href="!#">Stack Overflow</a>
+                  </p>
                 </div>
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 wow fadeIn" data-wow-delay="1.0s">
@@ -56,9 +61,6 @@ class Footer extends Component {
                   </p>
                   <p>
                     <a href="!#">What I Do</a>
-                  </p>
-                  <p>
-                    <a href="!#">About me</a>
                   </p>
                 </div>
         

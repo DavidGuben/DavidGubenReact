@@ -81,13 +81,6 @@ class Nav extends Component {
                     <NavbarNav left className="wow fadeIn" data-wow-delay="0.8s">
                         <NavItem>
                             <NavLink 
-                            to="/About"
-                            activeClassName="active">
-                            About
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink 
                             to="/Portfolio"
                             activeClassName="active">
                             Portfolio
