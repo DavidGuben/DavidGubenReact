@@ -8,14 +8,10 @@ import './Intro.css'
 class Intro extends Component {
     render() {
         return (
-            <View className="hm-blue-strong">
-                
-                    <div className="intro z-depth-1-half animated fadeIn">
-                    
-                        <HeroCard />
-                        
-                    </div>
-                
+            <View>
+                <div className="intro z-depth-1-half animated fadeIn">
+                    <HeroCard />
+                </div>
             </View>
         );
     }

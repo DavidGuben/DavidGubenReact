@@ -9,11 +9,13 @@ class HeroCard extends Component {
         return (
             
                 <div style={{textAlign: 'center'}}>
-                    <div className="row align-items-center">
+                    <div className="row">
                         <div className="animated bounceIn" style={{margin: '0 auto', zIndex: '2'}}>
+                        <img src={Logo} alt="logo" className="code-icon animated rubberBand"/>
                             <div className="intro-header">
-                                <h1><b>David Guben</b></h1>
-                                <p>Front-End Developer</p>
+                                
+                                <span className="intro-title">David Guben</span>
+                                <br/>Front-End Developer
                             </div>
                         </div>
                     </div>
