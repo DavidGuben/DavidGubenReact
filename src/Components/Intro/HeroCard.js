@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './Intro.css';
-import ReactLogo from './../../Images/code-icon-wht.svg';
+import Logo from './../../Images/code-icon-wht.svg';
 import Service from '../Services/Service';
 
 class HeroCard extends Component {
@@ -13,8 +13,7 @@ class HeroCard extends Component {
                         <div className="animated bounceIn" style={{margin: '0 auto', zIndex: '2'}}>
                             <div className="intro-header">
                                 <h1><b>David Guben</b></h1>
-                                <p>Web Developer</p>
-                                <img src={ReactLogo} alt="logo" className="animated rubberBand code-icon"/>
+                                <p>Front-End Developer</p>
                             </div>
                         </div>
                     </div>
