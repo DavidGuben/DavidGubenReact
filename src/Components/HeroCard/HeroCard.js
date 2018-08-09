@@ -31,16 +31,18 @@ class HeroCard extends Component {
                     <div className="service-content animated bounceIn flex-row" style={{margin: '0 auto'}}>     
 
                         <Service
-                        className="wow pulse"
-                        heading="Designer"
-                        description="Adobe Create Suite: Photoshop, Illustrator, InDesign, Premiere">
-                            <i className="fa fa-pencil fa-4x" style={{color: '#4d7ea8'}}></i>
+                         className="wow pulse"
+                         heading="Designer"
+                         tools="Adobe Create Suite: Photoshop, Illustrator, InDesign, Premiere"
+                         icon="fa fa-pencil fa-4x">
+                         <p style={{textAlign: 'left'}}>I use Adobe Creative Suite to create custom designs. I can help design anything digital or print.</p>
                         </Service>
                                 
                         <Service
-                        heading="Developer"
-                        description="HTML5, CSS3, JavaScript ES6, Node, React, Git">
-                            <i className="fa fa-code fa-4x" style={{color: '#4d7ea8'}}></i>
+                         heading="Developer"
+                         tools="HTML5, CSS3, JavaScript ES6, Node, React, Git, MongoDB"
+                         icon="fa fa-code fa-4x">
+                         <p style={{textAlign: 'left'}}>I use JavaScript ES6 along with today's modern frameworks to create custom responsive web applications that work great on all kinds of devices.</p>
                         </Service>
 
                     </div>

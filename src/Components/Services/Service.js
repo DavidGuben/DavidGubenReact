@@ -4,10 +4,11 @@ class Service extends Component {
     render() {
         return(
         <div className="col-md-6 mb-5">
-            {this.props.children}
+            <i className={this.props.icon} style={{color: '#4d7ea8'}}></i>
             <h4 className="my-4 font-weight-bold">{this.props.heading}</h4>
-            <p className="grey-text"><b>Tech used</b></p>
-            <p className="grey-text">{this.props.description}</p>
+            {this.props.children}
+            <p className="grey-text"><b>Tools</b></p>
+            <p className="grey-text">{this.props.tools}</p> 
         </div>
         )
     }
