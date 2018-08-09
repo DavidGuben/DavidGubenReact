@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import './Intro.css';
+import './HeroCard.css';
 import Logo from './../../Images/code-icon-wht.svg';
 import Service from '../Services/Service';
 

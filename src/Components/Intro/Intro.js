@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View} from 'mdbreact';
 
-import HeroCard from './HeroCard';
+import HeroCard from './../HeroCard/HeroCard';
 
 import './Intro.css'
 
