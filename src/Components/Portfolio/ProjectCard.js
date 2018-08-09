@@ -8,18 +8,19 @@ class ProjectCard extends Component {
         return (
             
             <div className="col-lg-4 col-md-12 mb-4 wow fadeIn" data-wow-delay={this.props.delay}>
-            <View zoom>
-            <div className="view overlay z-depth-1-half">
+                <View zoom>
                 
-                <img src={this.props.image} className="img-fluid" alt="Example" />
-               
-                <div className="mask rgba-white-slight"></div>
-            </div>
-            <div className="project-category">{this.props.children}</div>
+                <div className="view overlay z-depth-1 folio-card">
+                    
+                    <img src={this.props.image} className="img-fluid" alt="Example" />
+                    <div className="mask rgba-white-slight"></div>
 
-            <h4 className="my-4 font-weight-bold">{this.props.heading}</h4>
-            <p className="grey-text">{this.props.description}</p>
-            </View>
+                </div>
+                <div className="project-category">{this.props.children}</div>
+                <h4 className="my-4 font-weight-bold">{this.props.heading}</h4>
+                <p className="grey-text">{this.props.description}</p>
+                    
+                </View>
             </div>
             
         )

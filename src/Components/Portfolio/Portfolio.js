@@ -9,9 +9,9 @@ class Portfolio extends Component {
     render() {
         return (
           <Container>
-                <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center' }} className="wow fadeIn"><b>Portfolio</b></h2>
+              <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center' }} className="wow fadeIn"><b>Portfolio</b></h2>
 
-                <div className="row text-center">
+              <div className="row text-center">
                   
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
@@ -85,7 +85,7 @@ class Portfolio extends Component {
                     Website
                   </ProjectCard>
 
-                </div>
+              </div>
 
           </Container>
         )

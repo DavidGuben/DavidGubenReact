@@ -7,8 +7,6 @@
     padding-bottom: 35px;
   }
 
-  
-
   .rotate {
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
