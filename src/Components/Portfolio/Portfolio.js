@@ -16,73 +16,33 @@ class Portfolio extends Component {
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
                     heading="Paws N Pose Cuttery"
-                    description="Test Description."
+                    description="Mobile dog grooming company that services New Jersey."
                     delay="0.6s">
-                    App
+                    Website
                   </ProjectCard>
 
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
                     heading="Ritu Chopra"
-                    description="Test Description."
+                    description="Motivational speaker that helps people succeed using online courses."
                     delay="1.2s">
                     Website
                   </ProjectCard>
 
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/50.jpg"
-                    heading="Heading"
-                    description="Test Description."
+                    heading="Search Cannon"
+                    description="Search engine that utilizes several APIs to pull data from and display in order by category."
                     delay="1.8s">
-                    App
+                    Web App
                   </ProjectCard>
                   
                   <ProjectCard
                     image="https://mdbootstrap.com/img/Photos/Others/images/55.jpg"
-                    heading="Heading"
-                    description="Test Description."
+                    heading="NYT: Article Finder"
+                    description="Web Scraper that pulls articles from the New York Times."
                     delay="0.6s">
-                    Website
-                  </ProjectCard>
-
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/56.jpg"
-                    heading="Heading"
-                    description="Test Description."
-                    delay="1.2s">
-                    App
-                  </ProjectCard>
-                  
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/45.jpg"
-                    heading="Heading"
-                    description="Test Description."
-                    delay="1.8s">
-                    Website
-                  </ProjectCard>
-                  
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/51.jpg"
-                    heading="Heading"
-                    description="Test Description."
-                    delay="0.6s">
-                    App
-                  </ProjectCard>
-                  
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
-                    heading="Heading"
-                    description="Test Description."
-                    delay="1.2s">
-                    Website
-                  </ProjectCard>
-
-                  <ProjectCard
-                    image="https://mdbootstrap.com/img/Photos/Others/images/53.jpg"
-                    heading="Heading"
-                    description="Test Description."
-                    delay="1.8s">
-                    Website
+                    Web App
                   </ProjectCard>
 
               </div>

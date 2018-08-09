@@ -35,14 +35,14 @@ class HeroCard extends Component {
                          heading="Designer"
                          tools="Adobe Create Suite: Photoshop, Illustrator, InDesign, Premiere"
                          icon="fa fa-pencil fa-4x">
-                         <p style={{textAlign: 'left'}}>I use Adobe Creative Suite to create custom designs. I can help design anything digital or print.</p>
+                            <p style={{textAlign: 'left'}}>I use Adobe Creative Suite to create custom designs and assets. I can help design anything to be used for your digital and print work.</p>
                         </Service>
                                 
                         <Service
                          heading="Developer"
                          tools="HTML5, CSS3, JavaScript ES6, Node, React, Git, MongoDB"
                          icon="fa fa-code fa-4x">
-                         <p style={{textAlign: 'left'}}>I use JavaScript ES6 along with today's modern frameworks to create custom responsive web applications that work great on all kinds of devices.</p>
+                            <p style={{textAlign: 'left'}}>I use JavaScript ES6 along with today's modern frameworks to create custom responsive web applications that work great on all kinds of devices.</p>
                         </Service>
 
                     </div>
