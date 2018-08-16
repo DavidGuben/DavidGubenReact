@@ -31,7 +31,7 @@ class HeroCard extends Component {
                     <div className="service-content animated bounceIn flex-row" style={{margin: '0 auto'}}>     
 
                         <Service
-                         className="wow pulse"
+                         className="animated pulse"
                          heading="Designer"
                          tools="Adobe Create Suite: Photoshop, Illustrator, InDesign, Premiere"
                          icon="fa fa-pencil fa-4x">
@@ -39,6 +39,7 @@ class HeroCard extends Component {
                         </Service>
                                 
                         <Service
+                         className="animated pulse"
                          heading="Developer"
                          tools="HTML5, CSS3, JavaScript ES6, Node, React, Git, MongoDB"
                          icon="fa fa-code fa-4x">
