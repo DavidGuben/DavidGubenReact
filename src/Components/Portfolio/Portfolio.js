@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Container} from 'mdbreact'
 
+import companyLogo from './../../Images/portfolio/PNPC-Portfolio-Thumbnail.png'
 
 import ProjectCard from './ProjectCard'
 
@@ -14,6 +15,7 @@ class Portfolio extends Component {
               <div className="row text-center">
                   
                   <ProjectCard
+                    companyLogo={companyLogo}
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
                     heading="Paws N Pose Cuttery"
                     description="Mobile dog grooming company that services New Jersey."

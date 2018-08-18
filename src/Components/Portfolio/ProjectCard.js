@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import {View} from 'mdbreact'
+import React, {Component} from 'react';
+import {View} from 'mdbreact';
 
-import './Portfolio.css'
+import './Portfolio.css';
 
 class ProjectCard extends Component {
     render() {
@@ -12,7 +12,13 @@ class ProjectCard extends Component {
                 
                 <div className="view overlay z-depth-1 folio-card">
                     
-                    <img src={this.props.image} className="img-fluid" alt="Example" />
+                    <div className="company-logo-container">
+                        <img src={this.props.companyLogo} className="company-logo"/>
+                    </div>    
+                    <div>
+                        <img src={this.props.image} className="img-fluid" alt="Project" />
+                    </div>
+                    
                     <div className="mask rgba-white-slight"></div>
 
                 </div>
@@ -23,7 +29,7 @@ class ProjectCard extends Component {
                 </View>
             </div>
             
-        )
+        );
     }
 }
 

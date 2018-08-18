@@ -16,3 +16,36 @@
   .folio-card {
     border-radius: 20px;
   }
+
+  .company-logo-container {
+    position: absolute;
+    width: 30px;
+    z-index: 1;
+    margin: 0 auto;
+  }
+
+  .company-logo {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .company-logo {
+      width: 500px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 999px) {
+    .company-logo {
+      width: 220px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .company-logo {
+      width: 240px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+
+  }
