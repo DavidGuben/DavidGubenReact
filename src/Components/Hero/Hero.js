@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {View} from 'mdbreact';
 
-import HeroCard from './../HeroCard/HeroCard';
+import HeroCard from '../HeroCard/HeroCard';
 
-import './Intro.css'
+import './Hero.css'
 
 class Intro extends Component {
     render() {

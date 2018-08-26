@@ -1,21 +1,21 @@
-import React, {Component} from 'react'
-import {Container} from 'mdbreact'
+import React, {Component} from 'react';
+import {Container} from 'mdbreact';
 
-import companyLogo from './../../Images/portfolio/PNPC-Portfolio-Thumbnail.png'
+import pnpLogo from './../../Images/portfolio/pnpc-logo-2018-v2.png';
 
-import ProjectCard from './ProjectCard'
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 class Portfolio extends Component {
   
     render() {
         return (
           <Container>
-              <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center' }} className="wow fadeIn"><b>Portfolio</b></h2>
+              <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center', fontWeight: 'bold' }} className="wow fadeIn">Portfolio</h2>
 
-              <div className="row text-center">
+              <div className="row">
                   
                   <ProjectCard
-                    companyLogo={companyLogo}
+                    logo={pnpLogo}
                     image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
                     heading="Paws N Pose Cuttery"
                     description="Mobile dog grooming company that services New Jersey."
@@ -50,8 +50,8 @@ class Portfolio extends Component {
               </div>
 
           </Container>
-        )
+        );
     }
 }
 
-export default Portfolio
+export default Portfolio;

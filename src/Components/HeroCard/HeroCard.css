@@ -56,8 +56,9 @@
   }
 
   .code-icon {
-    border-radius: 20px;
+    border-radius: 25px;
     top: 40px;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
-  }
+    box-shadow: 0px 0px 40px rgba(72, 72, 72, 0.1);
+    }

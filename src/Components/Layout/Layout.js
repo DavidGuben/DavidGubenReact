@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Nav from './../Nav/Nav'
-import Intro from './../Intro/Intro'
+import Hero from './../Hero/Hero'
 import Portfolio from './../Portfolio/Portfolio'
 import Footer from './../Footer/Footer'
 
@@ -9,7 +9,7 @@ const Layout = () => {
     return (
         <div>
             <Nav/>
-            <Intro/>
+            <Hero/>
             <Portfolio/>
             <Footer/>
         </div>
