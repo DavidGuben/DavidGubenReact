@@ -11,7 +11,7 @@
     margin: 0 auto;
     color: white;
     top: -20px;
-    z-index: 1;
+    z-index: 5;
   }
 
   .folio-card {
@@ -20,13 +20,13 @@
 
   .company-logo-container {
     position: absolute;
-    z-index: 1;
     text-align: center;
     width: 100%;
   }
 
   .company-logo {
     padding: 5px 5px 5px 5px;
+    z-index: 3;
   }
 
   .company-logo img {

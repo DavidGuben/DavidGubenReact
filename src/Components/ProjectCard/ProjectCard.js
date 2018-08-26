@@ -17,17 +17,13 @@ class ProjectCard extends Component {
                         
                             <div className="company-logo">
                             
-                                <img src={this.props.logo} className="img-fluid" alt="Company Logo" />
+                                <img src={this.props.logo} className="img-fluid" alt="Company Logo" style={{zIndex:'3'}} />
                                 
                             </div>
-                        </div>    
-                        <div>
-                            <img src={this.props.image} className="img-fluid" alt="Project" />
                             
-                        </div>
-
-                        
-
+                        </div>    
+                        <img src={this.props.backgroundImage} className="img-fluid" alt="Project" />
+        
                     </div>
                     <div className="project-category">{this.props.children}</div>
                     <h4 className="my-4 font-weight-bold text-center">{this.props.heading}</h4>

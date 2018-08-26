@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import {Container} from 'mdbreact';
 
+import mainBg from './../../Images/portfolio/abstract-astronomy.jpg'
 import pnpLogo from './../../Images/portfolio/pnpc-logo-2018-v2.png';
-import rcLogo from './../../Images/portfolio/ritu-chopra-portfolio-thumbnail.png';
+import rcLogo from './../../Images/portfolio/rituchopra-logo.png';
 import scLogo from './../../Images/portfolio/search-cannon-portfolio-thumbnail.png';
 import nytLogo from './../../Images/portfolio/NYT-search-portfolio-thumbnail.png';
+
 
 import ProjectCard from '../ProjectCard/ProjectCard';
 
@@ -20,7 +22,7 @@ class Portfolio extends Component {
                   
                   <ProjectCard
                     logo={pnpLogo}
-                    image="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
+                    backgroundImage={mainBg}
                     heading="Paws N Pose Cuttery"
                     description="Mobile dog grooming company that services New Jersey."
                     delay="0.6s">
@@ -31,7 +33,7 @@ class Portfolio extends Component {
 
                   <ProjectCard
                     logo={rcLogo}
-                    image="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
+                    backgroundImage={mainBg}
                     heading="Ritu Chopra"
                     description="Motivational speaker that helps people succeed using online courses."
                     delay="1.2s">
@@ -40,7 +42,7 @@ class Portfolio extends Component {
 
                   <ProjectCard
                     logo={scLogo}
-                    image="https://mdbootstrap.com/img/Photos/Others/images/50.jpg"
+                    backgroundImage={mainBg}
                     heading="Search Cannon"
                     description="Search engine that utilizes several APIs to pull data from and display in order by category."
                     delay="1.8s">
@@ -49,10 +51,10 @@ class Portfolio extends Component {
                   
                   <ProjectCard
                     logo={nytLogo}
-                    image="https://mdbootstrap.com/img/Photos/Others/images/55.jpg"
+                    backgroundImage={mainBg}
                     heading="NYT: Article Finder"
                     description="Web Scraper that pulls articles from the New York Times."
-                    delay="0.6s">
+                    delay="1.8s">
                     Web App
                   </ProjectCard>
 
