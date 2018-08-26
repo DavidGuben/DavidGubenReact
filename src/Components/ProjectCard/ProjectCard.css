@@ -16,8 +16,6 @@
 
   .folio-card {
     border-radius: 20px 20px 20px 20px;
-    display: inline-block;
-    margin: 0 auto;
   }
 
   .company-logo-container {
@@ -26,13 +24,13 @@
     text-align: center;
     width: 100%;
   }
-  
+
   .company-logo {
-    margin: 0 auto;
     padding: 5px 5px 5px 5px;
   }
 
   .company-logo img {
+    margin: 0 auto;
     width: 60%;
     height: auto;
   }

@@ -12,15 +12,18 @@ class ProjectCard extends Component {
                 <View zoom>
                 
                     <div className="view overlay z-depth-1 folio-card">
-                        
+                    
                         <div className="company-logo-container">
+                        
                             <div className="company-logo">
-                                <img src={this.props.logo} className="img-fluid company-logo" alt="Company Logo" />
+                            
+                                <img src={this.props.logo} className="img-fluid" alt="Company Logo" />
+                                
                             </div>
                         </div>    
                         <div>
                             <img src={this.props.image} className="img-fluid" alt="Project" />
-                            <div className="mask rgba-white-light"></div>
+                            
                         </div>
 
                         
