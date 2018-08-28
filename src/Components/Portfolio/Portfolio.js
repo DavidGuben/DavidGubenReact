@@ -4,7 +4,7 @@ import {Container} from 'mdbreact';
 import mainBg from './../../Images/portfolio/abstract-astronomy.jpg'
 import pnpLogo from './../../Images/portfolio/pnpc-logo.svg';
 import rcLogo from './../../Images/portfolio/rituchopra-logo.svg';
-import scLogo from './../../Images/portfolio/search-cannon-portfolio-thumbnail.png';
+import scLogo from './../../Images/portfolio/searchcannon-logo.png';
 import nytLogo from './../../Images/portfolio/NYT-search-portfolio-thumbnail.png';
 
 
@@ -16,6 +16,7 @@ class Portfolio extends Component {
         return (
           
           <Container>
+
               <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center', fontWeight: 'bold' }} className="wow fadeIn">Portfolio</h2>
 
               <div className="row">
@@ -29,8 +30,6 @@ class Portfolio extends Component {
                     Website
                   </ProjectCard>
                   
-
-
                   <ProjectCard
                     logo={rcLogo}
                     backgroundImage={mainBg}
