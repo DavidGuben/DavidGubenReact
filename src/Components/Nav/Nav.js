@@ -79,6 +79,7 @@ class Nav extends Component {
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav left className="wow fadeIn" data-wow-delay="0.8s">
+
                         <NavItem>
                             <NavLink 
                             to="/Portfolio"
@@ -86,6 +87,7 @@ class Nav extends Component {
                             Portfolio
                             </NavLink>
                         </NavItem>
+                        &nbsp;
                         <NavItem>
                             <NavLink 
                             to=""
@@ -95,6 +97,7 @@ class Nav extends Component {
                             Contact me
                             </NavLink>
                         </NavItem>
+                        
                     </NavbarNav>
                 </Collapse>
             </Navbar>

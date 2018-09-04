@@ -99,7 +99,7 @@ class Footer extends Component {
         
               </div>
             </div>
-            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="1.5s">
+            <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.8s">
               2018 Copyright: <a href="https://davidguben.com">David G.</a>
             </div>
         
