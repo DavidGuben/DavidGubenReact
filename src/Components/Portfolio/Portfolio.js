@@ -4,7 +4,7 @@ import {Container} from 'mdbreact';
 import mainBg from './../../Images/portfolio/abstract-astronomy.jpg'
 import pnpLogo from './../../Images/portfolio/pnpc-logo.svg';
 import rcLogo from './../../Images/portfolio/rituchopra-logo.svg';
-import scLogo from './../../Images/portfolio/searchcannon-logo.png';
+import scLogo from './../../Images/portfolio/searchcannon-logo.svg';
 import msLogo from './../../Images/portfolio/mirrorlessshot.svg';
 
 import './Portfolio.css';
