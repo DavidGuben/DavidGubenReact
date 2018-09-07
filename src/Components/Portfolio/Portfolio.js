@@ -45,6 +45,7 @@ class Portfolio extends Component {
                   <ProjectCard
                     logo={scLogo}
                     backgroundImage={mainBg}
+                    url="https://https://searchcannon2017.herokuapp.com"
                     heading="Search Cannon"
                     description="Search engine that utilizes several APIs to pull data from and display in order by category."
                     delay="1.1s">
@@ -54,6 +55,7 @@ class Portfolio extends Component {
                   <ProjectCard
                     logo={msLogo}
                     backgroundImage={mainBg}
+                    url="https://mirrorlessshot.herokuapp.com"
                     heading="Mirrorless Shot"
                     description="Camera blog that focuses on mirrorless cameras."
                     delay="1.4s">
