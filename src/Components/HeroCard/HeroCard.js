@@ -12,11 +12,11 @@ class HeroCard extends Component {
 
                     <div className="row">
 
-                        <div className="animated fadeIn" style={{margin: '0 auto', zIndex: '2'}}>
+                        <div className="animated fadeInDown" style={{margin: '0 auto', zIndex: '2'}}>
 
                             <img src={Logo} alt="logo" className="code-icon animated bounceInDown" />
 
-                                <div className="intro-header animated fadeInDown">
+                                <div className="intro-header">
                                 
                                     <span className="intro-title">David Guben</span>
                                     <br/>Front-End Developer

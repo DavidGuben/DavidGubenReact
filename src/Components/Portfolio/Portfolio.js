@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container} from 'mdbreact';
 
-import mainBg from './../../Images/portfolio/abstract-astronomy.jpg'
+import mainBg from './../../Images/portfolio/abstract-astronomy.jpg';
 import pnpLogo from './../../Images/portfolio/pnpc-logo.svg';
 import rcLogo from './../../Images/portfolio/rituchopra-logo.svg';
 import scLogo from './../../Images/portfolio/searchcannon-logo.svg';
