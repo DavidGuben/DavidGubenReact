@@ -17,14 +17,14 @@
     width: 300px;
     order: 0;
     color:white;
-    background: linear-gradient(221deg, rgba(0,53,71,1) 0%, rgba(0,126,167,1) 100%);
+    background: linear-gradient(221deg, rgba(0,126,167,1) 0%, #00171f 100%);
     box-shadow: 0px 0px 20px rgba(23, 23, 23, 0.2);
     text-shadow: 1px 0px 0px rgba(43, 42, 42, 1);
     margin-top: 70px;
     word-break: break-all;
-    -webkit-animation: DaveG 6s ease infinite;
-    -moz-animation: DaveG 6s ease infinite;
-    animation: DaveG 6s ease infinite;
+    -webkit-animation: DaveG 8s ease infinite;
+    -moz-animation: DaveG 8s ease infinite;
+    animation: DaveG 8s ease infinite;
     background-size: 400% 400%;
   }
 

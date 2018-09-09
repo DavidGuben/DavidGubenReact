@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
          Collapse, Button, Row, Col, Fa, Input,
-         Modal, ModalBody, ModalFooter } from 'mdbreact'
+         Modal, ModalBody, ModalFooter } from 'mdbreact';
 
-import './Nav.css'
+import './Nav.css';
 
 class Nav extends Component {
     constructor(props) {
@@ -72,9 +72,11 @@ class Nav extends Component {
         return (
             <div>
             {this.renderModal()}
+            
             <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s"scrolling>
+            
                 <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
-                    <strong>DG</strong>
+                    <strong>David Guben</strong> | Front-End Development
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
@@ -100,6 +102,7 @@ class Nav extends Component {
                         
                     </NavbarNav>
                 </Collapse>
+                
             </Navbar>
             
       </div>

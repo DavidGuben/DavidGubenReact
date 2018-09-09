@@ -1,9 +1,10 @@
+
   .intro {
-    background: linear-gradient(270deg, #00a8e8, #003459);
+    background: linear-gradient(-45deg,  #00171f, #007ea7, #ffffff);
     background-size: 400% 400%;
-    -webkit-animation: DaveG 6s ease infinite;
-    -moz-animation: DaveG 6s ease infinite;
-    animation: DaveG 6s ease infinite;
+    -webkit-animation: DaveG 8s ease infinite;
+    -moz-animation: DaveG 8s ease infinite;
+    animation: DaveG 8s ease infinite;
     background-color: #000000;
     padding-bottom: 35px;
   }
