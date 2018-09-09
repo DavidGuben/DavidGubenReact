@@ -22,9 +22,9 @@
     text-shadow: 1px 0px 0px rgba(43, 42, 42, 1);
     margin-top: 70px;
     word-break: break-all;
-    -webkit-animation: DaveG 10s ease infinite;
-    -moz-animation: DaveG 10s ease infinite;
-    animation: DaveG 10s ease infinite;
+    -webkit-animation: DaveG 6s ease infinite;
+    -moz-animation: DaveG 6s ease infinite;
+    animation: DaveG 6s ease infinite;
     background-size: 400% 400%;
   }
 

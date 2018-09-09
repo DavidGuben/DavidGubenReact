@@ -13,7 +13,7 @@ class ProjectCard extends Component {
                 <View zoom>
                 
                     <div className="view overlay z-depth-1 folio-card vignette">
-                        <a href={this.props.url} target="_blank">
+                        <a href={this.props.url} target="_blank" rel="noopener noreferrer">
                         <div className="company-logo-container">
                         
                             <div className="company-logo">

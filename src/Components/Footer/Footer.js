@@ -5,7 +5,8 @@ import './Footer.css'
 class Footer extends Component {
     render() {
         return (
-            <footer className="page-footer unique-color-dark pt-0"> 
+          <footer className="page-footer unique-color-dark pt-0">
+          
             <div className="primary-color">
                 <div className="container">     
                     <div className="row py-4 d-flex align-items-center wow fadeIn" data-wow-delay="0.6s">
@@ -13,19 +14,13 @@ class Footer extends Component {
                             <h6 className="mb-0 white-text">Add me on social media</h6>
                         </div>
                         <div className="col-md-6 col-lg-7 text-center text-md-right">
-                            <a className="fb-ic ml-0">
+                            <a className="fb-ic ml-0" href="https://www.facebook.com/dguben" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-facebook white-text mr-4"> </i>
                             </a>
-                            <a className="tw-ic">
-                                <i className="fa fa-twitter white-text mr-4"> </i>
-                            </a>
-                            <a className="gplus-ic">
-                                <i className="fa fa-google-plus white-text mr-4"> </i>
-                            </a>
-                            <a className="li-ic">
+                            <a className="li-ic" href="https://www.linkedin.com/in/david-guben-79b3063b/" taget="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-linkedin white-text mr-4"> </i>
                             </a>
-                            <a className="ins-ic">
+                            <a className="ins-ic" href="https://www.instagram.com/davidjg6/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-instagram white-text mr-lg-4"> </i>
                             </a>
                         </div>
@@ -37,14 +32,14 @@ class Footer extends Component {
 
                 <div className="col-md-3 col-lg-4 col-xl-3 mb-4 wow fadeIn" data-wow-delay="0.8s">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>David Guben</strong>
+                    <strong>Developer Resources</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">GitHub</a>
+                    <a href="https://github.com/DavidGuben" target="_blank" rel="noopener noreferrer">GitHub</a>
                   </p>
                   <p>
-                    <a href="!#">Stack Overflow</a>
+                    <a href="https://stackoverflow.com/users/6685923/david-guben" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
                   </p>
                 </div>
 
@@ -54,13 +49,13 @@ class Footer extends Component {
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">My Portfolio</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">My Portfolio</a>
                   </p>
                   <p>
-                    <a href="!#">Contact Me</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">Contact Me</a>
                   </p>
                   <p>
-                    <a href="!#">What I Do</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">What I Do</a>
                   </p>
                 </div>
         
@@ -70,16 +65,16 @@ class Footer extends Component {
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Behance</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">Behance</a>
                   </p>
                   <p>
-                    <a href="!#">LinkedIn</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                   </p>
                   <p>
-                    <a href="!#">Facebook</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">Facebook</a>
                   </p>
                   <p>
-                    <a href="!#">Twitter</a>
+                    <a href="!#" target="_blank" rel="noopener noreferrer">Twitter</a>
                   </p>
                 </div>
         
@@ -100,7 +95,7 @@ class Footer extends Component {
               </div>
             </div>
             <div className="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.8s">
-              2018 Copyright: <a href="https://davidguben.com">David G.</a>
+              2018 Copyright: <b>David G.</b>
             </div>
         
           </footer>
