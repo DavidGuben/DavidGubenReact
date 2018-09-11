@@ -65,16 +65,16 @@ class Footer extends Component {
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#" target="_blank" rel="noopener noreferrer">Behance</a>
+                    <a href="https://www.behance.net/davidjustin" target="_blank" rel="noopener noreferrer">Behance</a>
                   </p>
                   <p>
-                    <a href="!#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/david-guben-79b3063b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                   </p>
                   <p>
-                    <a href="!#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://www.facebook.com/dguben" target="_blank" rel="noopener noreferrer">Facebook</a>
                   </p>
                   <p>
-                    <a href="!#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://twitter.com/DaveG88564353" target="_blank" rel="noopener noreferrer">Twitter</a>
                   </p>
                 </div>
         
@@ -88,7 +88,7 @@ class Footer extends Component {
                     <i className="fa fa-home mr-3"></i> New York, NY 
                   </p>
                   <p>
-                    <i className="fa fa-envelope mr-3"></i> davidjg6@gmail.com
+                    <i className="fa fa-envelope mr-3"></i> <a href="mailto:davidjg6@gmail.com">davidjg6@gmail.com</a>
                   </p>
                 </div>
         
