@@ -1,7 +1,7 @@
 {
   "name": "dgreact",
   "version": "0.1.0",
-  "homepage" : "http://DavidGuben.github.io/",
+  "homepage": "http://DavidGuben.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
@@ -57,7 +57,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
