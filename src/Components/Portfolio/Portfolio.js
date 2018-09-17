@@ -55,7 +55,7 @@ class Portfolio extends Component {
                   <ProjectCard
                     logo={msLogo}
                     backgroundImage={mainBg}
-                    url="mirrorless.davidguben.com"
+                    url="http://mirrorless.davidguben.com"
                     heading="Mirrorless Shot"
                     description="Camera blog that focuses on mirrorless cameras."
                     delay="1.4s">
