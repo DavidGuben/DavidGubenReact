@@ -50,7 +50,7 @@ class Portfolio extends Component {
                     url="https://searchcannon2017.herokuapp.com"
                     heading="Search Cannon"
                     description="Search engine that utilizes several APIs to pull data from and display in order by category."
-                    delay="1.1s">
+                    delay="1.0s">
                     Web App
                   </ProjectCard>
                   
@@ -60,7 +60,7 @@ class Portfolio extends Component {
                     url="http://mirrorless.davidguben.com"
                     heading="Mirrorless Shot"
                     description="Camera blog that focuses on mirrorless cameras."
-                    delay="1.4s">
+                    delay="1.2s">
                     Website
                   </ProjectCard>
 
