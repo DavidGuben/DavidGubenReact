@@ -2,10 +2,12 @@ import React, {Component} from 'react';
 import {Container} from 'mdbreact';
 
 import mainBg from './../../Images/portfolio/abstract-astronomy.jpg';
+
 import pnpLogo from './../../Images/portfolio/pnpc-logo.svg';
 import rcLogo from './../../Images/portfolio/rituchopra-logo.svg';
 import scLogo from './../../Images/portfolio/searchcannon-logo.svg';
 import msLogo from './../../Images/portfolio/mirrorlessshot.svg';
+import poprepoLogo from './../../Images/portfolio/poprepo-wht.svg';
 
 import './Portfolio.css';
 
@@ -57,6 +59,16 @@ class Portfolio extends Component {
                     backgroundImage={mainBg}
                     url="http://mirrorless.davidguben.com"
                     heading="Mirrorless Shot"
+                    description="Camera blog that focuses on mirrorless cameras."
+                    delay="1.4s">
+                    Website
+                  </ProjectCard>
+
+                  <ProjectCard
+                    logo={poprepoLogo}
+                    backgroundImage={mainBg}
+                    url="http://poprepo.davidguben.com"
+                    heading="PopRepo"
                     description="Camera blog that focuses on mirrorless cameras."
                     delay="1.4s">
                     Website

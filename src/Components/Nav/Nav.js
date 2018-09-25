@@ -73,7 +73,7 @@ class Nav extends Component {
             <div>
             {this.renderModal()}
             
-            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s"scrolling>
+            <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s" scrolling>
             
                 <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
                     <strong>David Guben</strong> | Front-End Development
