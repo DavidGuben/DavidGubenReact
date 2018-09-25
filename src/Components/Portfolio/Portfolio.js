@@ -69,9 +69,9 @@ class Portfolio extends Component {
                     backgroundImage={mainBg}
                     url="http://poprepo.davidguben.com"
                     heading="PopRepo"
-                    description="Camera blog that focuses on mirrorless cameras."
+                    description="Web App that displays a list of popular GitHub repositories for 5 programming languages."
                     delay="1.4s">
-                    Website
+                    Web App
                   </ProjectCard>
 
               </div>
