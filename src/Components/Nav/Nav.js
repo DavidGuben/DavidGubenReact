@@ -76,7 +76,7 @@ class Nav extends Component {
             <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s" scrolling>
             
                 <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
-                    <strong>David Guben</strong>
+                    <strong style={{fontWeight: 800}}>David Guben</strong>
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
