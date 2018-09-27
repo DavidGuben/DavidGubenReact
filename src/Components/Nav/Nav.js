@@ -76,11 +76,11 @@ class Nav extends Component {
             <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s" scrolling>
             
                 <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
-                    <strong>David Guben</strong> | Front-End Development
+                    <strong>David Guben</strong>
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
-                    <NavbarNav left className="wow fadeIn" data-wow-delay="0.8s">
+                    <NavbarNav left className="wow fadeIn" data-wow-delay="0.3s">
 
                         <NavItem>
                             <NavLink 
@@ -89,7 +89,7 @@ class Nav extends Component {
                             Portfolio
                             </NavLink>
                         </NavItem>
-                        &nbsp;
+                        
                         <NavItem>
                             <NavLink 
                             to=""
