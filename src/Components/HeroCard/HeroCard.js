@@ -28,7 +28,7 @@ class HeroCard extends Component {
                     
                     <div className="row">
 
-                        <div className="intro-content animated fadeInLeft" style={{margin: '0 auto', zIndex: '1'}}>
+                        <div className="intro-content wow fadeInLeft" style={{margin: '0 auto', zIndex: '1'}}>
                         <h1><b>What I Do</b></h1>
                         <p>
                             Design & develop custom responsive websites or applications using JavaScript ES6, Node.JS, and React.JS. 
@@ -38,7 +38,7 @@ class HeroCard extends Component {
                     </div>
 
                     <div className="row">
-                    <div className="service-content animated fadeInRight flex-row" style={{margin: '0 auto'}}>     
+                    <div className="service-content wow fadeInRight flex-row" style={{margin: '0 auto'}}>     
 
                         <Service
                          className="animated pulse"
