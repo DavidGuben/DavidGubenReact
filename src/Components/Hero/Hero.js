@@ -9,7 +9,7 @@ class Intro extends Component {
     render() {
         return (
             <View>
-                <video width="3000vh" autoPlay loop style={{position: 'absolute', opacity: 0.3}}>
+                <video width="3000vh" autoPlay loop muted style={{position: 'absolute', opacity: 0.3}}>
                     <source src={movie} type="video/mp4"/>
                 </video>
                 <div className="intro z-depth-1-half animated fadeIn">
