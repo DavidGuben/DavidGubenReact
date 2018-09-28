@@ -10,9 +10,9 @@ class ProjectCard extends Component {
             
             <div className="col-lg-4 col-md-12 mb-4 wow fadeIn" data-wow-delay={this.props.delay}>
             
-                <View zoom>
+                <View zoom className="folio-card">
                 <a href={this.props.url} target="_blank" rel="noopener noreferrer">
-                    <div className="view overlay z-depth-1 folio-card vignette">
+                    <div className="view overlay z-depth-1 vignette folio-card">
                         
                         <div className="company-logo-container">
                         
