@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.1993b71e.css",
-  "main.css.map": "static/css/main.1993b71e.css.map",
-  "main.js": "static/js/main.c301b40c.js",
-  "main.js.map": "static/js/main.c301b40c.js.map",
+  "main.css": "static/css/main.ed836801.css",
+  "main.css.map": "static/css/main.ed836801.css.map",
+  "main.js": "static/js/main.0cff6cda.js",
+  "main.js.map": "static/js/main.0cff6cda.js.map",
+  "static/media/AnimatedSmoke_LQ-MOBILE.mp4": "static/media/AnimatedSmoke_LQ-MOBILE.a72c49c0.mp4",
   "static/media/Roboto-Bold.eot": "static/media/Roboto-Bold.ecdd509c.eot",
   "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.dc81817d.woff",
@@ -34,6 +35,7 @@
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/mirrorlessshot.svg": "static/media/mirrorlessshot.be07ab25.svg",
   "static/media/pnpc-logo.svg": "static/media/pnpc-logo.b59d61b8.svg",
+  "static/media/poprepo-wht.svg": "static/media/poprepo-wht.fe998685.svg",
   "static/media/rituchopra-logo.svg": "static/media/rituchopra-logo.e5d59108.svg",
   "static/media/searchcannon-logo.svg": "static/media/searchcannon-logo.d606878c.svg"
 }
