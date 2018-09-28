@@ -22,10 +22,6 @@
     filter: blur(1px);
   }
 
-  .folio-card {
-    border-radius: 20px 20px 20px 20px;
-  }
-
   .company-logo-container {
     position: absolute;
     text-align: center;

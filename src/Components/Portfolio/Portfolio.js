@@ -30,8 +30,7 @@ class Portfolio extends Component {
                     url="https://www.pawsnposecuttery.com"
                     heading="Paws N Pose Cuttery"
                     description="Mobile dog grooming company that services New Jersey."
-                    delay="0.6s"
-                    style={{borderRadius: 20}}>
+                    delay="0.6s">
                     Website
                   </ProjectCard>
                   

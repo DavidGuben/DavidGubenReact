@@ -24,7 +24,7 @@ class ProjectCard extends Component {
                             
                         </div>
                           
-                            <img src={this.props.backgroundImage} className="img-fluid blur folio-card" alt="Project" />
+                            <img src={this.props.backgroundImage} className="img-fluid blur" alt="Project" />
         
                     </div>
                     <div className="project-category">{this.props.children}</div>
