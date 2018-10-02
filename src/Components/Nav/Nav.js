@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
          Collapse, Button, Row, Col, Fa, Input,
          Modal, ModalBody, ModalFooter } from 'mdbreact';
-
+import Logo from '../../Images/dg-logo02.png'
 import './Nav.css';
 
 class Nav extends Component {
@@ -76,18 +76,20 @@ class Nav extends Component {
             <Navbar style={{ backgroundColor: '#272932' }} dark className="navbar navbar-expand-lg animated fadeInDown" data-wow-delay="1.2s" scrolling>
             
                 <NavbarBrand href="/" className="animated wow fadeIn" data-wow-delay="0.5s">
-                    <strong style={{fontWeight: 800}}>David Guben</strong>
+                    <img src={Logo} width="60" alt="logo"/>
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } /> }
                 <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav left className="wow fadeIn" data-wow-delay="0.3s">
 
                         <NavItem>
+                            
                             <NavLink 
                             to="/Portfolio"
                             activeClassName="active">
                             Portfolio
                             </NavLink>
+                            
                         </NavItem>
                         
                         <NavItem>
@@ -101,11 +103,12 @@ class Nav extends Component {
                         </NavItem>
                         
                     </NavbarNav>
+                    
                 </Collapse>
                 
             </Navbar>
             
-      </div>
+            </div>
 
         );
     }

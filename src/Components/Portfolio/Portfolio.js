@@ -18,7 +18,7 @@ class Portfolio extends Component {
     render() {
         return (
           
-          <Container>
+          <Container ref={(Container) => { this.Folio = Container; }}>
 
               <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center', fontWeight: 'bold' }} className="wow fadeIn">Portfolio</h2>
 

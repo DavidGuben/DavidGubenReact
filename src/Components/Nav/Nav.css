@@ -5,6 +5,7 @@
 
 .contact-button {
     border-radius: 5px;
+    left: 5px;
     background: #4096ee;
     background: -moz-linear-gradient(-45deg, #4096ee 0%, #4096ee 100%);
     background: -webkit-linear-gradient(-45deg, #4096ee 0%,#4096ee 100%);
