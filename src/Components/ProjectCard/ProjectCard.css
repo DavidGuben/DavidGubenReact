@@ -1,0 +1,40 @@
+.project-category {
+    box-shadow: 0px 0px 20px rgba(23, 23, 23, 0.3);
+    text-shadow: 1px 0px 0px rgba(43, 42, 42, 1);
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    background-color: #007ea7;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    margin: 0 auto;
+    color: white;
+    top: -20px;
+    z-index: 5;
+  }
+
+  .blur {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+  }
+
+  .company-logo-container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .company-logo {
+    padding: 5px 5px 5px 5px;
+    z-index: 3;
+  }
+
+  .company-logo img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+  }

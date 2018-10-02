@@ -1,0 +1,23 @@
+.active {
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+.contact-button {
+    border-radius: 5px;
+    left: 5px;
+    background: #4096ee;
+    background: -moz-linear-gradient(-45deg, #4096ee 0%, #4096ee 100%);
+    background: -webkit-linear-gradient(-45deg, #4096ee 0%,#4096ee 100%);
+    background: linear-gradient(135deg, #4096ee 0%,#4096ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#4096ee',GradientType=1 );
+
+}
+
+.modal-header {
+    background: #4096ee;
+    background: -moz-linear-gradient(-45deg, #4096ee 0%, #4096ee 100%);
+    background: -webkit-linear-gradient(-45deg, #4096ee 0%,#4096ee 100%);
+    background: linear-gradient(135deg, #4096ee 0%,#4096ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#4096ee',GradientType=1 );
+}

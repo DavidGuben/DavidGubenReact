@@ -1,0 +1,35 @@
+
+  .intro {
+    background: linear-gradient(-45deg,  #00171f, #007ea7, #ffffff);
+    background-size: 400% 400%;
+    -webkit-animation: DaveG 8s ease infinite;
+    -moz-animation: DaveG 8s ease infinite;
+    animation: DaveG 8s ease infinite;
+    background-color: #000000;
+    padding-bottom: 35px;
+  }
+
+  @-webkit-keyframes DaveG {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes DaveG {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes DaveG { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+
+  .rotate {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

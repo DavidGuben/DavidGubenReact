@@ -1,13 +1,16 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 
-import Body from './Body'
-import Features from './Features'
+import About from './About'
+import Portfolio from './Portfolio'
+
 
 const Main = () => (
     <main>
         <Switch>
-            <Route exact path='/' component={Body} />
+            <Route path='/About' component={About} />
+            <Route path="/Portfolio" component={Portfolio} />
+            
         </Switch>
     </main>    
 )
