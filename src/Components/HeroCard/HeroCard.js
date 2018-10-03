@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './HeroCard.css';
-import Logo from './../../Images/code-icon-wht.svg';
+import Logo from './../../Images/dg-logo.png';
 import Service from '../Services/Service';
 
 class HeroCard extends Component {
@@ -14,7 +14,7 @@ class HeroCard extends Component {
 
                         <div className="animated fadeInDown" style={{margin: '0 auto', zIndex: '2'}}>
 
-                            <img src={Logo} alt="logo" className="code-icon animated bounceInDown" />
+                            <img src={Logo} alt="logo" className="hero-logo animated bounceInDown" />
 
                                 <div className="intro-header">
                                 
