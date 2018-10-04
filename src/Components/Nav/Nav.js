@@ -3,8 +3,7 @@ import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
          Collapse, Button, Row, Col, Fa, Input,
          Modal, ModalBody, ModalFooter } from 'mdbreact';
 
-    import * as Scroll from 'react-scroll';
-    import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Events, animateScroll as scroll, scroller } from 'react-scroll';
     
 import './Nav.css';
 
@@ -40,7 +39,9 @@ class Nav extends Component {
     }
 
     componentDidMount() {
+        // Register scroll events for beginning and end of scroll
         Events.scrollEvent.register('begin', function() {
+            // log which args are being passed
             console.log("begin", arguments);
         });
 
