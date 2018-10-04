@@ -14,16 +14,18 @@ import './Portfolio.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
   
     render() {
         return (
           
-          <Container ref={(Container) => { this.Folio = Container; }}>
-
+          <Container>
               <h2 style={{ marginTop: '25px', marginBottom: '25px', textAlign: 'center', fontWeight: 'bold' }} className="wow fadeIn">Portfolio</h2>
 
               <div id="portfolio" className="row">
-                  
                   <ProjectCard
                     logo={pnpLogo}
                     backgroundImage={mainBg}

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink,
          Collapse, Button, Row, Col, Fa, Input,
          Modal, ModalBody, ModalFooter } from 'mdbreact';
+
+    import * as Scroll from 'react-scroll';
+    import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+    
 import './Nav.css';
 
 class Nav extends Component {
@@ -18,6 +22,8 @@ class Nav extends Component {
     this.onClick = this.onClick.bind(this)
     this.toggle = this.toggle.bind(this)
     this.toggleClass = this.toggleClass.bind(this)
+    // bind scrollToTop event handler
+    this.scrollToTop = this.scrollToTop.bind(this);
     }
 
     onClick() {
@@ -31,6 +37,33 @@ class Nav extends Component {
             dropdownOpen: !this.state.dropdownOpen,
             modal: !this.state.modal
         });
+    }
+
+    componentDidMount() {
+        Events.scrollEvent.register('begin', function() {
+            console.log("begin", arguments);
+        });
+
+        Events.scrollEvent.register('end', function() {
+            console.log("end", arguments);
+        });
+    }
+
+    scrollToTop() {
+        scroll.scrollToTop();
+    }
+
+    scrollTo() {
+        scroller.scrollTo('scroll-to-element', {
+            duration: 800,
+            delay: 0,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    componentWillUnmount() {
+        Events.scrollEvent.remove('begin');
+        Events.scrollEvent.remote('end');
     }
 
     toggleClass() {
@@ -66,7 +99,6 @@ class Nav extends Component {
             </Row>
         );
     }
-
     render() {
         return (
             <div>
@@ -83,11 +115,13 @@ class Nav extends Component {
 
                         <NavItem>
                             
-                            <NavLink 
-                            to="/Portfolio"
-                            activeClassName="active">
+                            <NavLink
+                            to=""
+                            activeClassName="active"
+                            onClick={() => scroll.scrollTo(1315)}>
                             Portfolio
                             </NavLink>
+                            
                             
                         </NavItem>
                         
