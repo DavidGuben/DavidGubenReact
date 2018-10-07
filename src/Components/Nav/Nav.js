@@ -80,7 +80,7 @@ class Nav extends Component {
             <Modal isOpen={this.state.modal} toggle={this.toggle} className="cascading-modal animated fadeInDown">
                 <div className="modal-header white-text" style={{textAlign: 'center'}}>
                     <h4 className="title white-text">
-                    <Fa className="fa fa-pencil" /> Contact form</h4>
+                    <Fa className="fa fa-pencil" /> Contact me</h4>
                     <button type="button" className="close" onClick={this.toggle}>
                         <span aria-hidden="true">×</span>
                     </button>
